@@ -35,7 +35,7 @@ export default function Banner() {
   return (
     <section
       id="home"
-      className="w-full pt-5 pb-20 flex flex-col gap-10 lgl:flex-row xl:gap-0 items-center font-titleFont"
+      className="w-full pt-10 pb-20 flex flex-col gap-10 lgl:flex-row xl:gap-0 items-center font-titleFont"
     >
       <div className="w-full lgl:w-1/2 flex flex-col gap-10">
         <div className="flex flex-col gap-2 md:gap-4">

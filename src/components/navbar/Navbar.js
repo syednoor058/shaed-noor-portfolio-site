@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import {
   FaFacebookF,
@@ -55,97 +55,100 @@ export default function Navbar() {
         >
           <FiMenu />
         </span>
-        {toggleMenu && (
-          <motion.div
-            initial={{ x: "-80%", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: "80%", opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-designColor p-4 scrollbar-hide"
-          >
-            <div className="flex flex-col gap-5">
-              <div>
-                <span
-                  onClick={handleToggle}
-                  className="text-2xl text-white cursor-pointer"
-                >
-                  <HiArrowLeft />
-                </span>
-              </div>
-              <div className="flex flex-col gap-10">
-                <div className="flex justify-center items-center">
-                  <img
-                    src={titleLogo}
-                    alt="logo"
-                    style={{ height: "70px", width: "auto" }}
-                  />
-                </div>
+
+        <AnimatePresence>
+          {toggleMenu && (
+            <motion.div
+              initial={{ x: "-80%", opacity: 0 }}
+              animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
+              exit={{ x: "-80%", opacity: 0, transition: { duration: 0.5 } }}
+              // transition={{ duration: 0.5 }}
+              className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-designColor p-4 scrollbar-hide"
+            >
+              <div className="flex flex-col gap-5">
                 <div>
-                  <ul className="flex flex-col gap-4">
-                    {navLinksdata.map((navLink) => {
-                      return (
-                        <li
-                          className="text-base font-normal text-white tracking-wide cursor-pointer hover:text-bodyColor duration-300"
-                          key={navLink._id}
-                        >
-                          <Link
-                            activeClass="active-toggle-menu"
-                            to={navLink.link}
-                            onClick={handleToggle}
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                          >
-                            {navLink.title}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                  <span
+                    onClick={handleToggle}
+                    className="text-2xl text-white cursor-pointer"
+                  >
+                    <HiArrowLeft />
+                  </span>
                 </div>
-                <div className="flex gap-4">
-                  <span className="toggleMenuIcon">
-                    <a
-                      href="https://www.facebook.com/shaed058/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </span>
-                  <span className="toggleMenuIcon">
-                    <a
-                      href="https://www.linkedin.com/in/shaednoor/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </span>
-                  <span className="toggleMenuIcon">
-                    <a
-                      href="https://www.instagram.com/shaed_noor/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaInstagram />
-                    </a>
-                  </span>
-                  <span className="toggleMenuIcon">
-                    <a
-                      href="https://github.com/syednoor058"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub />
-                    </a>
-                  </span>
+                <div className="flex flex-col gap-10">
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={titleLogo}
+                      alt="logo"
+                      style={{ height: "70px", width: "auto" }}
+                    />
+                  </div>
+                  <div>
+                    <ul className="flex flex-col gap-4">
+                      {navLinksdata.map((navLink) => {
+                        return (
+                          <li
+                            className="text-base font-normal text-white tracking-wide cursor-pointer hover:text-bodyColor duration-300"
+                            key={navLink._id}
+                          >
+                            <Link
+                              activeClass="active-toggle-menu"
+                              to={navLink.link}
+                              onClick={handleToggle}
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                            >
+                              {navLink.title}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                  <div className="flex gap-4">
+                    <span className="toggleMenuIcon">
+                      <a
+                        href="https://www.facebook.com/shaed058/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaFacebookF />
+                      </a>
+                    </span>
+                    <span className="toggleMenuIcon">
+                      <a
+                        href="https://www.linkedin.com/in/shaednoor/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </span>
+                    <span className="toggleMenuIcon">
+                      <a
+                        href="https://www.instagram.com/shaed_noor/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaInstagram />
+                      </a>
+                    </span>
+                    <span className="toggleMenuIcon">
+                      <a
+                        href="https://github.com/syednoor058"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub />
+                      </a>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </motion.div>
-        )}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
