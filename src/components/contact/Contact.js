@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
               <div className="flex flex-col gap-3">
                 <div>
-                  <h2 className="text-lg lg:text-xl font-bold">Syed SHaeduzzaman Noor</h2>
+                  <h2 className="text-lg lg:text-xl font-bold">Syed Shaeduzzaman Noor</h2>
                   <p className="text-sm tracking-wide text-gray-500">
                     Software Engineer | SQA Engineer | SEO Specialist
                   </p>

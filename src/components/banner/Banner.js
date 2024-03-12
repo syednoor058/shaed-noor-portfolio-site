@@ -54,7 +54,7 @@ export default function Banner() {
           </h2>
 
           <p className="text-sm md:text-base font-bodyFont leading-6 tracking-wide text-gray-400">
-            Dynamic, motivated, hardworkingl, keen about the
+            Dynamic, motivated, hardworking, keen about the
             changes in the dynamic world of computer science technology. I want to
             export my potential & acquire knowledge & skills in my
             profession as required by an organization to
