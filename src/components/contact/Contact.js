@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
@@ -20,8 +21,11 @@ export default function Contact() {
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
 
+  const form = useRef();
+
   const handleSend = (e) => {
     e.preventDefault();
+
     if (username === "") {
       setErrMsg("Name is required!");
     } else if (phoneNumber === "") {
@@ -38,6 +42,20 @@ export default function Contact() {
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
       );
+
+      emailjs
+        .sendForm("service_k918xce", "template_bwke4fq", form.current, {
+          publicKey: "RVdjFgeK3-m4-E8RM",
+        })
+        .then(
+          () => {
+            console.log("SUCCESS!");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          }
+        );
+
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -73,7 +91,9 @@ export default function Contact() {
               </div>
               <div className="flex flex-col gap-3">
                 <div>
-                  <h2 className="text-lg lg:text-xl font-bold">Syed Shaeduzzaman Noor</h2>
+                  <h2 className="text-lg lg:text-xl font-bold">
+                    Syed Shaeduzzaman Noor
+                  </h2>
                   <p className="text-sm tracking-wide text-gray-500">
                     Software Engineer | SQA Engineer | SEO Specialist
                   </p>
@@ -90,16 +110,40 @@ export default function Contact() {
                   </p>
                   <div className="flex gap-4 mt-3">
                     <span className="bannerIcon">
-                    <a href="https://www.facebook.com/shaed058/" target="_blank" rel="noopener noreferrer" ><FaFacebookF /></a>
+                      <a
+                        href="https://www.facebook.com/shaed058/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaFacebookF />
+                      </a>
                     </span>
                     <span className="bannerIcon">
-                    <a href="https://www.linkedin.com/in/shaednoor/" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a>
+                      <a
+                        href="https://www.linkedin.com/in/shaednoor/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaLinkedinIn />
+                      </a>
                     </span>
                     <span className="bannerIcon">
-                    <a href="https://www.instagram.com/shaed_noor/" target="_blank" rel="noopener noreferrer" ><FaInstagram /></a>
+                      <a
+                        href="https://www.instagram.com/shaed_noor/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaInstagram />
+                      </a>
                     </span>
                     <span className="bannerIcon">
-                    <a href="https://github.com/syednoor058" target="_blank" rel="noopener noreferrer" ><FaGithub /></a>
+                      <a
+                        href="https://github.com/syednoor058"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub />
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -109,17 +153,7 @@ export default function Contact() {
           <div className="w-full lg:w-[60%] xl:w-[70%] h-full">
             <div className="flex flex-col justify-between">
               <div className="w-full h-full py-5 lg:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-8">
-                <form className="w-full flex flex-col gap-3">
-                  {errMsg && (
-                    <p className="py-1 lg:py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
-                      {errMsg}
-                    </p>
-                  )}
-                  {successMsg && (
-                    <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
-                      {successMsg}
-                    </p>
-                  )}
+                <form ref={form} className="w-full flex flex-col gap-3">               
                   <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-8">
                     <div className="w-full lg:w-1/2 flex flex-col gap-2">
                       <p className="text-xs lg:text-sm text-gray-400 uppercase tracking-wide">
@@ -128,6 +162,7 @@ export default function Contact() {
                       <input
                         onChange={(e) => setUsername(e.target.value)}
                         value={username}
+                        name='from_name'
                         className={`${
                           errMsg === "Username is required!" &&
                           "outline-designColor"
@@ -142,6 +177,7 @@ export default function Contact() {
                       <input
                         onChange={(e) => setPhoneNumber(e.target.value)}
                         value={phoneNumber}
+                        name='from_mobile'
                         className={`${
                           errMsg === "Phone number is required!" &&
                           "outline-designColor"
@@ -157,6 +193,7 @@ export default function Contact() {
                     <input
                       onChange={(e) => setEmail(e.target.value)}
                       value={email}
+                      name='from_email'
                       className={`${
                         errMsg === "Please give your Email!" &&
                         "outline-designColor"
@@ -171,6 +208,7 @@ export default function Contact() {
                     <input
                       onChange={(e) => setSubject(e.target.value)}
                       value={subject}
+                      name='from_subject'
                       className={`${
                         errMsg === "Plese give your Subject!" &&
                         "outline-designColor"
@@ -185,6 +223,7 @@ export default function Contact() {
                     <textarea
                       onChange={(e) => setMessage(e.target.value)}
                       value={message}
+                      name='message'
                       className={`${
                         errMsg === "Message is required!" &&
                         "outline-designColor"
@@ -194,6 +233,18 @@ export default function Contact() {
                       rows="8"
                     ></textarea>
                   </div>
+
+                  {errMsg && (
+                    <p className="py-1 lg:py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                      {errMsg}
+                    </p>
+                  )}
+                  {successMsg && (
+                    <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                      {successMsg}
+                    </p>
+                  )}
+
                   <div className="w-full">
                     <button
                       onClick={handleSend}

@@ -12,9 +12,9 @@ export default function ProjectCard(props) {
                 <h3 className='text-sm md:text-base uppercase text-designColor font-normal'>{props.title}</h3>
             </div>
             <div>
-                <spam className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                     <a href={props.githubLink}><FaGithub /></a>
-                </spam>
+                </span>
             </div>
         </div>
         <div className='w-full'>
