@@ -120,7 +120,7 @@ export default function Banner() {
       </div>
       <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
         <img className="w-[250px] lgl:w-[400px] h-auto z-10" src={bannerImg} alt="syed_shaeduzzaman_noor" />
-        <div className="absolute bottom-0 w-[300px] h-[250px] lgl:w-[350px] lgl:h-[380px] shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-center items-center"></div>
+        <div className="absolute bottom-0 w-[220px] h-[250px] lgl:w-[350px] lgl:h-[380px] shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-center items-center"></div>
       </div>
     </section>
   );
