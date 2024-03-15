@@ -66,7 +66,7 @@ export default function Banner() {
           </p>
 
           <div className="w-full flex">
-            <button className="mt-5 w-auto px-7 h-10 lg:h-12 bg-[#141518] rounded-sm text-sm text-gray-400 tracking-wider hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center">
+            <button className="mt-5 w-auto px-4 h-10 lg:h-12 bg-[#141518] rounded-sm text-sm text-gray-400 tracking-wider hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center">
               <a
                 className="w-auto flex items-center gap-2"
                 href={resume}
