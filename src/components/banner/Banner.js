@@ -82,7 +82,7 @@ export default function Banner() {
         </div>
         <div className="flex flex-col md:flex-row gap-5 lgl:gap-0 justify-between">
           <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500">
+            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Find me in
             </h2>
             <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
@@ -125,7 +125,7 @@ export default function Banner() {
             </div>
           </div>
           <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500">
+            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Best skill on
             </h2>
             <div className="flex flex-col gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
