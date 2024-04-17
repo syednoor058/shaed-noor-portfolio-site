@@ -14,7 +14,7 @@ export default function Experiences() {
       </div>
       <div className="w-full">
         <div>
-          <div className="w-full border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
+          <div className="w-full border-l-[6px] border-black border-opacity-30 flex flex-col gap-10" data-aos="zoom-in">
             <ResumeCard
               title="SEO Specialist and Analyst"
               subTitle="PuppetBrush Digital Solutions"

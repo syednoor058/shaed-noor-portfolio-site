@@ -14,7 +14,7 @@ export default function Education() {
           <h2 className="text-xl md:text-3xl font-bold">Educational Qualification</h2>
         </div>
         <div className="w-full">
-          <div className="w-full border-l-[6px] border-black border-opacity-30 flex flex-col gap-10">
+          <div className="w-full border-l-[6px] border-black border-opacity-30 flex flex-col gap-10" data-aos="zoom-in">
             <ResumeCard
               title="BSc in Software Engineering"
               subTitle="Anhui University of Technology, Anhui, China"

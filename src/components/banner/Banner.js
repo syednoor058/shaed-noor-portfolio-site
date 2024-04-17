@@ -123,7 +123,7 @@ export default function Banner() {
                 </a>
               </span>
             </div> */}
-            <div className="grid grid-cols-4 md:grid-cols-4 gap-2 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+            <div className="grid grid-cols-3 sml:grid-cols-4 gap-3 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
               <div className="bannerIcon">
                 <a
                   href="https://www.facebook.com/shaed058/"
@@ -166,7 +166,7 @@ export default function Banner() {
             <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Best skill on
             </h2>
-            {/* <div className="flex flex-col gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+            {/* <div className="flex flex-col gap-3" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
               <div className="flex gap-4">
                 <span className="bannerIcon">
                   <FaReact />
@@ -196,7 +196,7 @@ export default function Banner() {
                 </span>
               </div>
             </div> */}
-            <div className="grid grid-cols-4 md:grid-cols-4 gap-2 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+            <div className="grid grid-cols-3 sml:grid-cols-4 gap-3 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
                 <div className="bannerIcon">
                   <FaReact />
                 </div>
