@@ -80,12 +80,12 @@ export default function Banner() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-5 lgl:gap-0 justify-between">
+        <div className="flex flex-row gap-5 lgl:gap-0 justify-between">
           <div>
             <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Find me in
             </h2>
-            <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+            {/* <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
               <span className="bannerIcon">
                 <a
                   href="https://www.facebook.com/shaed058/"
@@ -122,13 +122,51 @@ export default function Banner() {
                   <FaGithub />
                 </a>
               </span>
+            </div> */}
+            <div className="grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+              <div className="bannerIcon">
+                <a
+                  href="https://www.facebook.com/shaed058/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebookF />
+                </a>
+              </div>
+              <div className="bannerIcon">
+                <a
+                  href="https://www.linkedin.com/in/shaednoor/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </div>
+              <div className="bannerIcon">
+                <a
+                  href="https://www.instagram.com/shaed_noor/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
+              <div className="bannerIcon">
+                <a
+                  href="https://github.com/syednoor058"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </div>
             </div>
           </div>
           <div>
             <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Best skill on
             </h2>
-            <div className="flex flex-col gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+            {/* <div className="flex flex-col gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
               <div className="flex gap-4">
                 <span className="bannerIcon">
                   <FaReact />
@@ -157,6 +195,32 @@ export default function Banner() {
                   <FaDocker />
                 </span>
               </div>
+            </div> */}
+            <div className="grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
+                <div className="bannerIcon">
+                  <FaReact />
+                </div>
+                <div className="bannerIcon">
+                  <FaNodeJs />
+                </div>
+                <div className="bannerIcon">
+                  <FaBootstrap />
+                </div>
+                <div className="bannerIcon">
+                  <SiTailwindcss />
+                </div>
+                <div className="bannerIcon">
+                  <SiMongodb />
+                </div>
+                <div className="bannerIcon">
+                  <SiSelenium />
+                </div>
+                <div className="bannerIcon">
+                  <SiNextdotjs />
+                </div>
+                <div className="bannerIcon">
+                  <FaDocker />
+                </div>
             </div>
           </div>
         </div>
