@@ -15,6 +15,7 @@ function SampleNextArrow(props) {
     <div
       className="w-[40%] h-8 lg:w-14 lg:h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-lg lg:text-2xl text-gray-400 flex justify-center items-center absolute -top-10 lg:top-0 right-0 shadow-shadowOne cursor-pointer z-10"
       onClick={onClick}
+      data-aos="zoom-in-left"
     ><HiArrowRight /></div>
   );
 }
@@ -25,6 +26,7 @@ function SamplePrevArrow(props) {
     <div
       className="w-[40%] h-8 lg:w-14 lg:h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-lg lg:text-2xl text-gray-400 flex justify-center items-center absolute -top-10 lg:top-0 lg:right-20 shadow-shadowOne cursor-pointer z-10"
       onClick={onClick}
+      data-aos="zoom-in-right"
     ><HiArrowLeft /></div>
   );
 }
@@ -88,10 +90,10 @@ export default function Testimonial() {
     <section id="testimonial" className="w-full h-auto pt-10 pb-10 md:pb-20">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
-          <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
+          <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
             Testimonials
           </h3>
-          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize">
+          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize" data-aos="zoom-in">
             What Clients Say
           </h1>
         </div>
@@ -100,7 +102,7 @@ export default function Testimonial() {
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0">
+              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0" data-aos="zoom-in-right">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={tanhaImg}
@@ -117,10 +119,10 @@ export default function Testimonial() {
                 </div>
               </div>
               <div className="w-full lg:w-[60%] h-full flex flex-col justify-between">
-                <span className="text-6xl lg:text-8xl">
+                <span className="text-6xl lg:text-8xl" data-aos="zoom-in">
                   <LuQuote />
                 </span>
-                <div className="w-full h-[70%] py-5 lg:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
+                <div className="w-full h-[70%] py-5 lg:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5" data-aos="zoom-in-left">
                   <div className="flex gap-2 lg:gap-0 justify-between items-center border-b-2 border-b-gray-900 pb-6">
                     <div>
                       <h3 className="text-base lg:text-xl tracking-wide text-medium">

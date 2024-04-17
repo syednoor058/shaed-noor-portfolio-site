@@ -8,7 +8,7 @@ export default function Education() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
     >
-      <div>
+      <div data-aos="zoom-in">
         <div className="py-8 font-titleFont">
           <p className="text-xs md:text-sm text-designColor tracking-[4px]">2004 - 2024</p>
           <h2 className="text-xl md:text-3xl font-bold">Educational Qualification</h2>

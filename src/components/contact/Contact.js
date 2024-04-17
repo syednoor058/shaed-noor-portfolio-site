@@ -69,17 +69,17 @@ export default function Contact() {
     <section id="contact" className="w-full pt-10 pb-10 md:pb-20">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
-          <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
+          <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
             Contact
           </h3>
-          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize">
+          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize" data-aos="zoom-in">
             Let's have a conversation
           </h1>
         </div>
       </div>
       <div className="w-full">
         <div className="w-full h-full flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between lg:p-5">
-          <div className="w-full lg:w-[35%] xl:w-[25%] h-auto">
+          <div className="w-full lg:w-[35%] xl:w-[25%] h-auto" data-aos="zoom-in">
             <div className="bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-5 lg:p-8 flex flex-col gap-5 lg:gap-8">
               <div className="w-full flex justify-center">
                 <img
@@ -150,7 +150,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[60%] xl:w-[70%] h-full">
+          <div className="w-full lg:w-[60%] xl:w-[70%] h-full" data-aos="zoom-in">
             <div className="flex flex-col justify-between">
               <div className="w-full h-full py-5 lg:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-8">
                 <form ref={form} className="w-full flex flex-col gap-3">               

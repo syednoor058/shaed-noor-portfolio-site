@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ResumeCard(props) {
   return (
-    <div className="w-full h-auto group flex">
+    <div className="w-full h-auto group flex" data-aos="zoom-in">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
         <span className="absolute w-5 h-5 rounded-full bg-black bg-opacity-60 -top-2 -left-3 flex justify-center items-center">
-          <span className="w-3 h-3 rounded-full bg-bodyColor inline-flex group-hover:bg-designColor duration-300"></span>
+          <span className="w-3 h-3 rounded-full bg-gray-400 inline-flex group-hover:bg-designColor duration-300"></span>
         </span>
       </div>
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-40 duration-300 rounded-lg px-5 md:px-8 py-5 md:py-8 flex flex-col justify-center gap-3 md:gap-8 shadow-shadowOne">

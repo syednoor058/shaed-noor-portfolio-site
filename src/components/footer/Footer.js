@@ -5,13 +5,13 @@ import titleLogo from "../../assets/images/title_logo.png";
 export default function footer() {
   return (
     <section className="w-full pt-20 pb-5 h-auto grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-20 border-b-[1px] border-b-gray-900">
-      <div className="w-full h-full flex flex-col gap-8">
+      <div className="w-full h-full flex flex-col gap-8" data-aos="zoom-in">
         <img className="w-[90%]" src={titleLogo} alt="shaed_logo" />
         <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4">
+            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="100">
               Find me in
             </h2>
-            <div className="flex gap-4">
+            <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="200">
               <span className="footerIcon">
               <a href="https://www.facebook.com/shaed058/" target="_blank" rel="noopener noreferrer" ><FaFacebookF /></a>
               </span>
@@ -28,10 +28,10 @@ export default function footer() {
           </div>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider">
+      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
           Quick Link
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden">
+        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               About
@@ -65,10 +65,10 @@ export default function footer() {
         </ul>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider">
+      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
           Resources
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden">
+        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               Authentication
@@ -102,10 +102,10 @@ export default function footer() {
         </ul>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider">
+      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
           Developers
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden">
+        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               Documentation

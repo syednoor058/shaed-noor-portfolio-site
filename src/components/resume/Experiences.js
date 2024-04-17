@@ -8,7 +8,7 @@ export default function Experiences() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
     >
-      <div className="py-8 font-titleFont">
+      <div className="py-8 font-titleFont" data-aos="zoom-in">
         <p className="text-xs md:text-sm text-designColor tracking-[4px]">2020 - 2023</p>
         <h2 className="text-xl md:text-3xl font-bold">Company Experiences</h2>
       </div>
