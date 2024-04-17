@@ -41,14 +41,14 @@ export default function Banner() {
     >
       <div className="w-full lgl:w-1/2 flex flex-col gap-10">
         <div className="flex flex-col gap-2 md:gap-4">
-          <h4 className="text-base md:text-lg font-normal">
+          <h4 className="text-base md:text-lg font-normal" data-aos="fade-up">
             WELCOME TO MY GALAXY
           </h4>
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
+          <h1 className="text-4xl md:text-5xl font-bold text-white" data-aos="fade-up" data-aos-delay="50">
             Hi, I am{" "}
             <span className="text-designColor capitalize">Shaed Noor</span>
           </h1>
-          <h2 className="text-lg md:text-3xl font-bold text-white">
+          <h2 className="text-lg md:text-3xl font-bold text-white" data-aos="fade-up" data-aos-delay="100">
             an expert <span>{text}</span>
             <Cursor
               cursorBlinking="false"
@@ -57,7 +57,7 @@ export default function Banner() {
             />
           </h2>
 
-          <p className="text-sm md:text-base font-bodyFont leading-6 tracking-wide text-gray-400">
+          <p className="text-sm md:text-base font-bodyFont leading-6 tracking-wide text-gray-400" data-aos="fade-up" data-aos-delay="150">
             Dynamic, motivated, hardworking, keen about the changes in the
             dynamic world of computer science technology. I want to export my
             potential & acquire knowledge & skills in my profession as required
@@ -65,7 +65,7 @@ export default function Banner() {
             performance.
           </p>
 
-          <div className="w-full flex">
+          <div className="w-full flex" data-aos="fade-up" data-aos-delay="200">
             <button className="mt-5 w-auto px-4 h-10 lg:h-12 bg-[#141518] rounded-sm text-sm text-gray-400 tracking-wider hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center">
               <a
                 className="w-auto flex items-center gap-2"
@@ -82,10 +82,10 @@ export default function Banner() {
         </div>
         <div className="flex flex-col md:flex-row gap-5 lgl:gap-0 justify-between">
           <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4">
+            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="fade-up" data-aos-delay="250">
               Find me in
             </h2>
-            <div className="flex gap-4">
+            <div className="flex gap-4" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
               <span className="bannerIcon">
                 <a
                   href="https://www.facebook.com/shaed058/"
@@ -125,10 +125,10 @@ export default function Banner() {
             </div>
           </div>
           <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4">
+            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="fade-up" data-aos-delay="250">
               Best skill on
             </h2>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
               <div className="flex gap-4">
                 <span className="bannerIcon">
                   <FaReact />
@@ -161,7 +161,7 @@ export default function Banner() {
           </div>
         </div>
       </div>
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
+      <div className="w-full lgl:w-1/2 flex justify-center items-center relative" data-aos="fade-left">
         <img
           className="w-[250px] lgl:w-[400px] h-auto z-10"
           src={bannerImg}
