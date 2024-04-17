@@ -7,7 +7,7 @@ export default function Skills() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
     >
-      <div className="w-full flex flex-col mdl:flex-row gap-5 mdl:gap-20">
+      <div className="w-full flex flex-col mdl:flex-row gap-5 mdl:gap-20" data-aos="zoom-in">
         {/* Programing Languages Skills */}
 
         <div className="w-full mdl:w-1/2 flex flex-col gap-5 mdl:gap-8">
