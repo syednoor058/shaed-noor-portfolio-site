@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard(props) {
   return (
-    <div className='w-full px-5 py-5 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-black transition-colors duration-500' data-aos="zoom-in" data-aos-offset="200">
+    <div className='w-full px-5 py-5 rounded-lg shadow-shadowOne flex flex-col bg-black bg-opacity-40 hover:bg-opacity-70 group hover:bg-gradient-to-b transition-colors duration-500' data-aos="zoom-in" data-aos-offset="200">
         <div className='w-full h-auto overflow-hidden rounded-lg'>
             <img className='w-full h-[200px] object-cover group-hover:scale-110 duration-300 cursor-pointer' src={props.coverSrc} alt='project_cover_img' />
         </div>

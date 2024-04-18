@@ -8,7 +8,7 @@ export default function ResumeCard(props) {
           <span className="w-3 h-3 rounded-full bg-gray-400 inline-flex group-hover:bg-designColor duration-300"></span>
         </span>
       </div>
-      <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-40 duration-300 rounded-lg px-5 md:px-8 py-5 md:py-8 flex flex-col justify-center gap-3 md:gap-8 shadow-shadowOne">
+      <div className="w-full bg-black bg-opacity-40 hover:bg-opacity-70 duration-300 rounded-lg px-5 md:px-8 py-5 md:py-8 flex flex-col justify-center gap-3 md:gap-8 shadow-shadowOne">
         <div className="flex flex-col md:flex-row gap-5 md:gap-0 justify-between md:items-center">
           <div className="flex flex-col gap-2">
             <h2 className="text-base md:text-xl font-semibold group-hover:text-white duration-300">{props.title}</h2>

@@ -102,7 +102,7 @@ export default function Testimonial() {
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0" data-aos="zoom-in">
+              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md" data-aos="zoom-in">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={tanhaImg}
@@ -156,7 +156,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0">
+              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={shararImg}
@@ -205,7 +205,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0">
+              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={rhituImg}
@@ -254,7 +254,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0">
+              <div className="w-full lg:w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={azizulImg}
