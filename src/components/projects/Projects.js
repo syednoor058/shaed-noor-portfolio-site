@@ -5,6 +5,7 @@ import projectOneImg from "../../assets/images/mern_project_cover.png";
 import projectTwoCover from "../../assets/images/movie_recom_cover.png";
 import projectSixCover from "../../assets/images/portfolio_project_cover.png";
 import projectFourCover from "../../assets/images/raffle_draw_cover.png";
+import projectSevenCover from "../../assets/images/wp_automation.png";
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
@@ -27,6 +28,7 @@ export default function Projects() {
         <ProjectCard title="Raffle Draw Server Side Project (Node JS)" desc="Welcome to the Raffle Draw Project, a Node.js and Express.js application that makes raffle events more exciting and engaging. With this application, users can easily participate in raffle draws, buy one or multiple tickets, and experience the thrill of being a winner." coverSrc={projectFourCover} githubLink="https://github.com/syednoor058/nodeJS-project-raffle-draw.git" />
         <ProjectCard title="Bank Interest Calculator (Selenium Automation)" desc="Automate the calculation of total interest amounts with the Bank Interest Calculator Automation script. This Python script leverages Selenium to navigate bank websites, input criteria, and extract interest data. The results are then conveniently stored in an Excel file, making financial calculations a breeze." coverSrc={projectFiveCover} githubLink="https://github.com/syednoor058/selenium-project-bank-interest-automated-calculator.git" />
         <ProjectCard title="My Portfolio Site (React JS)" desc="This portfolio website is fully designed and developed by me. All rights reserved on my name. I used React Js with Tailwind CSS, Framer-motion, React Slick, and React-scroll. A visually stunning portfolio highlighting my skills and achievements." coverSrc={projectSixCover} githubLink="https://github.com/syednoor058/shaed-noor-portfolio-site.git" />
+        <ProjectCard title="Wordpress Plugins Automation Test (Playwright & JavaScript)" desc= "A comprehensive project, designed to enhance the testing process for WordPress plugins, 'WP Dark Mode', developed by WPPOOL. Leveraging the power of Playwright, this repository offers developers a robust framework to automate testing procedures and functionality of their plugins." coverSrc={projectSevenCover} githubLink="https://github.com/syednoor058/WordPress-plugin-automation-test-by-Playwright.git" />
       </div>
     </section>
   );
