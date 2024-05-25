@@ -70,7 +70,7 @@ export default function Banner() {
               <a
                 className="w-auto flex items-center gap-2"
                 href={resume}
-                download="Resume of SYED SHAEDUZZAMAN NOOR"
+                download="Resume of SYED SHAEDUZZAMAN NOOR.pdf"
               >
                 <span className="text-2xl lg:text-2xl">
                   <IoMdCloudDownload />
