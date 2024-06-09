@@ -1,5 +1,10 @@
 import React from "react";
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import titleLogo from "../../assets/images/title_logo.png";
 
 export default function footer() {
@@ -8,30 +13,65 @@ export default function footer() {
       <div className="w-full h-full flex flex-col gap-8" data-aos="zoom-in">
         <img className="w-[90%]" src={titleLogo} alt="shaed_logo" />
         <div>
-            <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="100">
-              Find me in
-            </h2>
-            <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="200">
-              <span className="footerIcon">
-              <a href="https://www.facebook.com/shaed058/" target="_blank" rel="noopener noreferrer" ><FaFacebookF /></a>
-              </span>
-              <span className="footerIcon">
-              <a href="https://www.linkedin.com/in/shaednoor/" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a>
-              </span>
-              <span className="footerIcon">
-              <a href="https://www.instagram.com/shaed_noor/" target="_blank" rel="noopener noreferrer" ><FaInstagram /></a>
-              </span>
-              <span className="footerIcon">
-              <a href="https://github.com/syednoor058" target="_blank" rel="noopener noreferrer" ><FaGithub /></a>
-              </span>
-            </div>
+          <h2
+            className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            Find me in
+          </h2>
+          <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="200">
+            <span className="footerIcon">
+              <a
+                href="https://www.facebook.com/shaed058/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF />
+              </a>
+            </span>
+            <span className="footerIcon">
+              <a
+                href="https://www.linkedin.com/in/shaednoor/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </span>
+            <span className="footerIcon">
+              <a
+                href="https://www.instagram.com/shaed_noor/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+            </span>
+            <span className="footerIcon">
+              <a
+                href="https://github.com/syednoor058"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </span>
           </div>
+        </div>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
+        <h3
+          className="text-md uppercase text-designColor tracking-wider"
+          data-aos="zoom-in"
+        >
           Quick Link
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
+        <ul
+          className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               About
@@ -65,10 +105,17 @@ export default function footer() {
         </ul>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
+        <h3
+          className="text-md uppercase text-designColor tracking-wider"
+          data-aos="zoom-in"
+        >
           Resources
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
+        <ul
+          className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               Authentication
@@ -102,10 +149,17 @@ export default function footer() {
         </ul>
       </div>
       <div className="w-full h-full">
-      <h3 className="text-md uppercase text-designColor tracking-wider" data-aos="zoom-in">
+        <h3
+          className="text-md uppercase text-designColor tracking-wider"
+          data-aos="zoom-in"
+        >
           Developers
         </h3>
-        <ul className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
+        <ul
+          className="flex flex-col gap-2 lg:gap-4 font-titleFont font-medium py-3 lg:py-6 overflow-hidden"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
           <li>
             <span className="w-full text-sm relative hover:text-designColor duration-300 group cursor-pointer">
               Documentation
