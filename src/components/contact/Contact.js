@@ -80,7 +80,7 @@ export default function Contact() {
       <div className="w-full">
         <div className="w-full h-full flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between lg:p-5">
           <div className="w-full lg:w-[35%] xl:w-[25%] h-full" data-aos="zoom-in">
-            <div className="bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-5 lg:p-8 flex flex-col gap-5 lg:gap-8">
+            <div className="bg-cardColor shadow-shadowOne p-5 lg:p-8 flex flex-col gap-5 lg:gap-8 rounded-md">
               <div className="w-full flex justify-center">
                 <img
                   className="rounded-lg object-cover"
@@ -152,7 +152,7 @@ export default function Contact() {
           </div>
           <div className="w-full lg:w-[60%] xl:w-[70%] h-full" data-aos="zoom-in">
             <div className="flex flex-col justify-between">
-              <div className="w-full h-full py-5 lg:py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-8">
+              <div className="w-full h-full py-5 lg:py-8 bg-cardColor shadow-shadowOne rounded-md px-5 lg:px-8 flex flex-col justify-center gap-8">
                 <form ref={form} className="w-full flex flex-col gap-3">               
                   <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-8">
                     <div className="w-full lg:w-1/2 flex flex-col gap-2">
@@ -235,12 +235,12 @@ export default function Contact() {
                   </div>
 
                   {errMsg && (
-                    <p className="py-1 lg:py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                    <p className="py-1 lg:py-3 bg-cardColor shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                       {errMsg}
                     </p>
                   )}
                   {successMsg && (
-                    <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                    <p className="py-3 bg-cardColor shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
                       {successMsg}
                     </p>
                   )}
@@ -248,7 +248,7 @@ export default function Contact() {
                   <div className="w-full">
                     <button
                       onClick={handleSend}
-                      className="w-full h-10 lg:h-12 bg-[#141518] rounded-md text-sm lg:text-base text-gray-400 tracking-wider uppercase hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center"
+                      className="w-full h-10 lg:h-12 bg-bodyColor rounded-md text-sm lg:text-base text-gray-400 tracking-wider uppercase hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center"
                     >
                       <span className="text-lg lg:text-xl">
                         <IoIosSend />

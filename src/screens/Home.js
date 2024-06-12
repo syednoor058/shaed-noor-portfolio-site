@@ -20,8 +20,8 @@ export default function Home() {
       <div className="w-full px-5 md:px-10"><Resume /></div>
       <div className="w-full px-5 md:px-10"><Testimonial /></div>
       <div className="w-full px-5 md:px-10"><Contact /></div>
-      <div className="w-full px-5 md:px-10"><Footer /></div>
-      <div className="w-full px-5 md:px-10"><FooterBottom /></div>       
+      <div className="w-full px-5 md:px-10 bg-cardColorHover"><Footer /></div>
+      <div className="w-full px-5 md:px-10 bg-cardColorHover"><FooterBottom /></div>       
     </div>
     </>
   )

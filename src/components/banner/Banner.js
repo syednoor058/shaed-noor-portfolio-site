@@ -39,7 +39,7 @@ export default function Banner() {
   return (
     <section
       id="home"
-      className="w-full h-full pt-10 pb-20 flex flex-col gap-20 lgl:flex-row lgl:gap-10 items-center font-titleFont"
+      className="w-full h-full pt-10 pb-20 flex flex-col gap-10 lgl:flex-row lgl:gap-10 items-center font-titleFont"
     >
       <div className="w-full lgl:w-3/5 flex flex-col gap-7">
         <div className="flex flex-col gap-2">
@@ -228,13 +228,13 @@ export default function Banner() {
         </div>
       </div>
       <div className="w-full lgl:w-2/5 flex justify-center items-center" data-aos="zoom-in" data-aos-duration="1600">
-        <div className="py-1.5 px-3 lgl:py-2.5 lgl:px-5 shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-end items-center">
+        {/* <div className="py-2 px-6 lgl:py-2.5 lgl:px-10 shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-end items-center"> */}
           <img
-            className="w-[170px] lgl:w-[280px] h-auto z-10"
+            className="w-[220px] lgl:w-[320px] h-auto z-10"
             src={bannerImg}
             alt="syed_shaeduzzaman_noor"
           />
-        </div>
+        {/* </div> */}
       </div>
     </section>
   );

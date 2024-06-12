@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaGithub, FaPython } from "react-icons/fa";
 import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiAxios, SiExpress, SiGooglemaps, SiMongodb } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { SiFastapi, SiNextdotjs, SiNumpy, SiPandas, SiScikitlearn, SiTailwindcss } from "react-icons/si";
 import { Link } from "react-router-dom";
 import foodDeliveryImg from "../assets/images/foodDelivery.png";
 import implimentImg from "../assets/images/implement.png";
@@ -44,13 +43,13 @@ export default function Project1() {
             className="text-md text-bold uppercase font-light text-designColor tracking-wide"
             data-aos="zoom-in"
           >
-            Full Stack Web Application
+            Machine Learning Suggestion Application
           </p>
           <h1
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            HUNGRY SHAED WEB APPLICATION
+            Movies Suggestion System
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -64,13 +63,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Food Delivery Full Stack Web Application is a comprehensive
-            platform designed to connect users with local restaurants and
-            streamline the process of ordering food online. Built using the MERN
-            stack (MongoDB, Express.js, React, Node.js), this application
-            provides a seamless and efficient user experience, enabling
-            customers to browse menus, place orders, and track deliveries in
-            real-time.
+            The Similar Movies Suggestion System is a recommendation engine designed to provide users with personalized movie recommendations based on their viewing history and preferences. This system leverages machine learning algorithms and data analysis techniques to identify movies similar to those the user has liked or rated highly, enhancing their viewing experience and helping them discover new content.
           </p>
         </div>
 
@@ -94,9 +87,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User-Friendly Interface:</span>{" "}
-                    Develop an intuitive and responsive interface for both
-                    customers and restaurant partners.
+                    <span className="text-white">User Personalization:</span>{" "}
+                    Deliver tailored movie suggestions to users based on their unique tastes and past interactions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -105,10 +97,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Efficient Order Management:
+                    Similarity Analysis:
                     </span>{" "}
-                    Implement features to manage orders, track delivery status,
-                    and handle payments securely.
+                    Implement robust algorithms to evaluate and determine movie similarities based on various attributes such as genre, director, cast, user ratings, and plot keywords.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -119,8 +110,7 @@ export default function Project1() {
                     <span className="text-white">
                       Scalability and Performance:
                     </span>{" "}
-                    Ensure the application is scalable and performs efficiently
-                    under high traffic conditions.
+                    Ensure the system can handle a large database of movies and a growing user base with efficient performance.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -128,9 +118,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Secure Transactions:</span>{" "}
-                    Provide secure authentication and payment processing to
-                    protect user data and transactions.
+                    <span className="text-white">User-Friendly Interface:</span>{" "}
+                    Develop an intuitive interface for users to interact with the recommendation system, providing easy access to suggested movies.
                   </div>
                 </div>
               </p>
@@ -178,9 +167,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User Authentication:</span>{" "}
-                    Enable users to register, log in, and manage their profiles
-                    securely.
+                    <span className="text-white">User Profile Management:</span>{" "}
+                    Allow users to create profiles, save preferences, and rate movies.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -188,9 +176,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Restaurant Listings:</span>{" "}
-                    Display a list of available restaurants with detailed menus
-                    and reviews.
+                    <span className="text-white">Movie Database:</span>{" "}
+                    Integrate a comprehensive database of movies with detailed metadata.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -198,9 +185,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Search and Filter:</span> Allow
-                    users to search for restaurants and filter results based on
-                    cuisine, ratings, and location.
+                    <span className="text-white">Recommendation Algorithm:</span> Utilize collaborative filtering, content-based filtering, and hybrid methods to generate movie suggestions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -208,9 +193,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Order Placement:</span>{" "}
-                    Facilitate the easy selection of menu items, customization
-                    of orders, and addition to the cart.
+                    <span className="text-white">Real-Time Updates:</span>{" "}
+                    Continuously update recommendations based on the latest user interactions and ratings.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -218,28 +202,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Payment Integration:</span>{" "}
-                    Integrate secure payment gateways for processing
-                    transactions.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Order Tracking:</span> Provide
-                    real-time order tracking from preparation to delivery.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Admin Dashboard:</span> Create
-                    a dashboard for administrators and restaurant partners to
-                    manage listings, orders, and delivery logistics.
+                    <span className="text-white">Search Functionality:</span>{" "}
+                    Enable users to search for movies and receive recommendations based on search results.
                   </div>
                 </div>
               </p>
@@ -264,67 +228,59 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiMongodb />
+                <FaPython />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                MongoDB
+                Python
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiExpress />
+                <SiScikitlearn   />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Express
+                Scikit-Learn
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaReact />
+                <SiNumpy />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                React
+                Numpy
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaNodeJs />
+                <SiPandas />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Node
+                Pandas
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaBootstrap />
+                <SiFastapi />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Bootstrap
+                FastAPI
               </p>
             </div>
 
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <TbBrandRedux />
+                <SiTailwindcss />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Redux
+                Tailwind
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiAxios />
+                <SiNextdotjs />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Axios
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <SiGooglemaps />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Map
+                Next.js
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -358,9 +314,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Project Setup:</span>{" "}
-                    Initialize the MERN stack project with a structured
-                    directory layout.
+                    <span className="text-white">Data Collection and Preprocessing:</span>{" "}
+                    Gather movie data from APIs and preprocess it to create a structured database.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -368,9 +323,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Database Design:</span> Design
-                    MongoDB schemas for users, restaurants, menu items, and
-                    orders.
+                    <span className="text-white">Algorithm Development:</span> Implement and train machine learning models for collaborative filtering and content-based filtering.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -378,10 +331,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Backend Development:</span>{" "}
-                    Develop RESTful APIs using Express.js to handle user
-                    authentication, restaurant data, order processing, and
-                    payment integration.
+                    <span className="text-white">System Integration:</span>{" "}
+                    Develop backend and frontend components, integrating the recommendation engine with the user interface.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -389,10 +340,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Frontend Development:</span>{" "}
-                    Build the React application with components for user
-                    interfaces, including registration, restaurant browsing,
-                    order management, and tracking.
+                    <span className="text-white">Testing and Evaluation:</span>{" "}
+                    Test the system with real user data, evaluate its performance, and fine-tune the algorithms.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -400,52 +349,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">State Management:</span>{" "}
-                    Implement Redux for managing the global state and handling
-                    actions related to authentication, order placement, and data
-                    fetching.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Integration:</span> Connect the
-                    frontend with backend APIs using Axios, ensuring secure and
-                    efficient data transfer.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">
-                      Payment and Maps Integration:
-                    </span>{" "}
-                    Integrate payment gateways and Google Maps API for enhanced
-                    functionality.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Testing and QA:</span> Conduct
-                    thorough testing of all components and features to ensure
-                    functionality, security, and performance.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Deployment:</span> Deploy the
-                    application on a cloud platform like AWS or Heroku for
-                    scalability and accessibility.
+                    <span className="text-white">Deployment:</span>{" "}
+                    Deploy the application on a cloud platform for accessibility and scalability.
                   </div>
                 </div>
               </p>
@@ -493,11 +398,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Seamless User Experience:
-                    </span>{" "}
-                    Provide a smooth and intuitive platform for users to order
-                    food and track deliveries.
+                  Enhanced user satisfaction through personalized movie recommendations.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -505,11 +406,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Efficient Order Management:
-                    </span>{" "}
-                    Enable restaurants to manage orders efficiently and improve
-                    customer satisfaction.
+                  Increased user engagement and interaction with the recommendation system.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -517,18 +414,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Scalability:</span>Scalability:
-                    Ensure the application can handle high traffic and large
-                    volumes of data seamlessly.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Security:</span> Maintain high
-                    standards of security for user data and transactions.
+                  A scalable solution capable of handling extensive movie databases and user profiles.
                   </div>
                 </div>
               </p>
@@ -541,10 +427,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By developing the Food Delivery Full Stack Web Application using the
-            MERN stack, we aim to create a robust and scalable platform that
-            meets the needs of customers and restaurant partners, enhancing the
-            food ordering and delivery experience.
+            By creating the Similar Movies Suggestion System, we aim to improve the movie-watching experience for users by introducing them to content they are likely to enjoy, fostering a deeper engagement with the platform.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">

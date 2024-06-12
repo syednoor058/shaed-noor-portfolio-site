@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaGithub, FaGlobeAmericas, FaPython } from "react-icons/fa";
 import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiAxios, SiExpress, SiGooglemaps, SiMongodb } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { SiApachejmeter, SiJavascript, SiJunit5, SiSelenium } from "react-icons/si";
 import { Link } from "react-router-dom";
 import foodDeliveryImg from "../assets/images/foodDelivery.png";
 import implimentImg from "../assets/images/implement.png";
@@ -44,13 +43,13 @@ export default function Project1() {
             className="text-md text-bold uppercase font-light text-designColor tracking-wide"
             data-aos="zoom-in"
           >
-            Full Stack Web Application
+            Automation Testing Project
           </p>
           <h1
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            HUNGRY SHAED WEB APPLICATION
+            Bank Interest Calculator
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -64,13 +63,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Food Delivery Full Stack Web Application is a comprehensive
-            platform designed to connect users with local restaurants and
-            streamline the process of ordering food online. Built using the MERN
-            stack (MongoDB, Express.js, React, Node.js), this application
-            provides a seamless and efficient user experience, enabling
-            customers to browse menus, place orders, and track deliveries in
-            real-time.
+            The Bank Interest Calculator Automation Testing project focuses on automating the testing process of a bank interest calculator application. This project aims to ensure the calculator's accuracy, reliability, and performance across different scenarios and input values. By utilizing automated testing tools, the project aims to reduce manual testing efforts, quickly identify defects, and ensure that the calculator performs as expected under various conditions.
           </p>
         </div>
 
@@ -94,9 +87,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User-Friendly Interface:</span>{" "}
-                    Develop an intuitive and responsive interface for both
-                    customers and restaurant partners.
+                    <span className="text-white">Accuracy Verification:</span>{" "}
+                    Ensure the calculator provides accurate interest calculations for various input scenarios.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -105,10 +97,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Efficient Order Management:
+                    Efficiency and Performance:
                     </span>{" "}
-                    Implement features to manage orders, track delivery status,
-                    and handle payments securely.
+                    Validate that the calculator operates efficiently without performance degradation under high usage.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -117,10 +108,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Scalability and Performance:
+                    Cross-Browser Compatibility:
                     </span>{" "}
-                    Ensure the application is scalable and performs efficiently
-                    under high traffic conditions.
+                    Confirm the calculator works correctly across different web browsers.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -128,9 +118,10 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Secure Transactions:</span>{" "}
-                    Provide secure authentication and payment processing to
-                    protect user data and transactions.
+                    <span className="text-white">
+                    Continuous Integration:
+                    </span>{" "}
+                    Integrate automated tests into a CI/CD pipeline to maintain quality with every update.
                   </div>
                 </div>
               </p>
@@ -178,9 +169,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User Authentication:</span>{" "}
-                    Enable users to register, log in, and manage their profiles
-                    securely.
+                    <span className="text-white">Input Validation:</span>{" "}
+                    Automate tests to verify that the calculator handles different types of input values correctly, including edge cases and invalid inputs.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -188,9 +178,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Restaurant Listings:</span>{" "}
-                    Display a list of available restaurants with detailed menus
-                    and reviews.
+                    <span className="text-white">Calculation Accuracy:</span>{" "}
+                    Test various scenarios for simple and compound interest calculations, ensuring correct results.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -198,9 +187,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Search and Filter:</span> Allow
-                    users to search for restaurants and filter results based on
-                    cuisine, ratings, and location.
+                    <span className="text-white">Performance Testing:</span> Measure the response time and performance of the calculator under different load conditions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -208,9 +195,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Order Placement:</span>{" "}
-                    Facilitate the easy selection of menu items, customization
-                    of orders, and addition to the cart.
+                    <span className="text-white">Browser Compatibility:</span>{" "}
+                    Test the calculator across multiple browsers such as Chrome, Firefox, Safari, and Edge.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -218,28 +204,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Payment Integration:</span>{" "}
-                    Integrate secure payment gateways for processing
-                    transactions.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Order Tracking:</span> Provide
-                    real-time order tracking from preparation to delivery.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Admin Dashboard:</span> Create
-                    a dashboard for administrators and restaurant partners to
-                    manage listings, orders, and delivery logistics.
+                    <span className="text-white">Regression Testing:</span>{" "}
+                    Ensure new changes do not introduce any new bugs or regressions in existing functionality.
                   </div>
                 </div>
               </p>
@@ -264,67 +230,50 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiMongodb />
+                <FaPython />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                MongoDB
+                Python
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiExpress />
+                <SiJavascript />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Express
+                JavaScript
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaReact />
+                <SiSelenium />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                React
+                Selenium
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaNodeJs />
+                <SiJunit5 />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Node
+                JUnit
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaBootstrap />
+                <SiApachejmeter />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Bootstrap
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <TbBrandRedux />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Redux
+                JMeter
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiAxios />
+                <FaGlobeAmericas />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Axios
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <SiGooglemaps />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Map
+                Browser
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -359,8 +308,7 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">Project Setup:</span>{" "}
-                    Initialize the MERN stack project with a structured
-                    directory layout.
+                    Set up the test automation project structure and environment.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -368,9 +316,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Database Design:</span> Design
-                    MongoDB schemas for users, restaurants, menu items, and
-                    orders.
+                    <span className="text-white">Test Framework Configuration:</span> Configure the chosen test framework (JUnit, TestNG) and integrate with Selenium for browser automation.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -378,10 +324,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Backend Development:</span>{" "}
-                    Develop RESTful APIs using Express.js to handle user
-                    authentication, restaurant data, order processing, and
-                    payment integration.
+                    <span className="text-white">Develop Test Cases:</span>{" "}
+                    Verify that the calculator handles valid, invalid, and edge case inputs appropriately. Validate the accuracy of simple and compound interest calculations for various input scenarios.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -389,10 +333,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Frontend Development:</span>{" "}
-                    Build the React application with components for user
-                    interfaces, including registration, restaurant browsing,
-                    order management, and tracking.
+                    <span className="text-white">Continuous Integration Setup:</span>{" "}
+                    Integrate automated tests into a CI/CD pipeline using Jenkins, GitHub Actions, or GitLab CI.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -400,10 +342,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">State Management:</span>{" "}
-                    Implement Redux for managing the global state and handling
-                    actions related to authentication, order placement, and data
-                    fetching.
+                    <span className="text-white">Reporting and Analysis:</span>{" "}
+                    Configure reporting tools like Allure or ExtentReports to generate detailed test reports and logs.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -411,41 +351,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Integration:</span> Connect the
-                    frontend with backend APIs using Axios, ensuring secure and
-                    efficient data transfer.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">
-                      Payment and Maps Integration:
-                    </span>{" "}
-                    Integrate payment gateways and Google Maps API for enhanced
-                    functionality.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Testing and QA:</span> Conduct
-                    thorough testing of all components and features to ensure
-                    functionality, security, and performance.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Deployment:</span> Deploy the
-                    application on a cloud platform like AWS or Heroku for
-                    scalability and accessibility.
+                    <span className="text-white">Execution and Monitoring:</span>{" "}
+                    Run automated tests regularly, monitor results, and address any identified issues.
                   </div>
                 </div>
               </p>
@@ -493,11 +400,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Seamless User Experience:
-                    </span>{" "}
-                    Provide a smooth and intuitive platform for users to order
-                    food and track deliveries.
+                  <span className="text-bold text-white">Accurate Calculations:</span> Ensure the bank interest calculator provides correct results for all tested scenarios.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -505,11 +408,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Efficient Order Management:
-                    </span>{" "}
-                    Enable restaurants to manage orders efficiently and improve
-                    customer satisfaction.
+                  <span className="text-bold text-white">Enhanced Performance:</span> Verify that the calculator performs efficiently under various load conditions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -517,9 +416,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Scalability:</span>Scalability:
-                    Ensure the application can handle high traffic and large
-                    volumes of data seamlessly.
+                  <span className="text-bold text-white">Cross-Browser Functionality:</span> Confirm that the calculator works seamlessly across different web browsers.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -527,8 +424,15 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Security:</span> Maintain high
-                    standards of security for user data and transactions.
+                  <span className="text-bold text-white">Consistent User Interface:</span> Maintain a consistent and functional UI across different devices and screen sizes.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                  <span className="text-bold text-white">Continuous Quality Assurance:</span> Maintain high quality and reliability of the calculator through automated testing integrated into the development pipeline.
                   </div>
                 </div>
               </p>
@@ -541,10 +445,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By developing the Food Delivery Full Stack Web Application using the
-            MERN stack, we aim to create a robust and scalable platform that
-            meets the needs of customers and restaurant partners, enhancing the
-            food ordering and delivery experience.
+            By implementing automated testing for the Bank Interest Calculator, the project aims to enhance the reliability and accuracy of the application, ensuring it meets user expectations and performs consistently across various conditions.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">

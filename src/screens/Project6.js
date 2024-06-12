@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaGithub, FaNodeJs, FaWordpress } from "react-icons/fa";
 import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiAxios, SiExpress, SiGooglemaps, SiMongodb } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { SiGithubactions, SiJavascript, SiJest, SiPlaywright } from "react-icons/si";
 import { Link } from "react-router-dom";
 import foodDeliveryImg from "../assets/images/foodDelivery.png";
 import implimentImg from "../assets/images/implement.png";
@@ -44,13 +43,13 @@ export default function Project1() {
             className="text-md text-bold uppercase font-light text-designColor tracking-wide"
             data-aos="zoom-in"
           >
-            Full Stack Web Application
+            Automation Testing Project
           </p>
           <h1
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            HUNGRY SHAED WEB APPLICATION
+            WordPress Plugins Automation Test
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -64,13 +63,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Food Delivery Full Stack Web Application is a comprehensive
-            platform designed to connect users with local restaurants and
-            streamline the process of ordering food online. Built using the MERN
-            stack (MongoDB, Express.js, React, Node.js), this application
-            provides a seamless and efficient user experience, enabling
-            customers to browse menus, place orders, and track deliveries in
-            real-time.
+            The WordPress Plugins Automation Testing project is designed to streamline and automate the testing process for WordPress plugins using Playwright. Playwright is a powerful automation tool that supports end-to-end testing for modern web applications. This project aims to ensure that WordPress plugins function correctly across various browsers and environments, reducing manual testing efforts and improving the reliability of plugin updates.
           </p>
         </div>
 
@@ -94,9 +87,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User-Friendly Interface:</span>{" "}
-                    Develop an intuitive and responsive interface for both
-                    customers and restaurant partners.
+                    <span className="text-white">Automate Testing:</span>{" "}
+                    Develop a suite of automated tests for WordPress plugins to validate functionality and compatibility.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -105,10 +97,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Efficient Order Management:
+                    Cross-Browser Testing:
                     </span>{" "}
-                    Implement features to manage orders, track delivery status,
-                    and handle payments securely.
+                    Ensure plugins work seamlessly across different browsers such as Chrome, Firefox, and Safari.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -117,10 +108,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Scalability and Performance:
+                    Continuous Integration:
                     </span>{" "}
-                    Ensure the application is scalable and performs efficiently
-                    under high traffic conditions.
+                    Integrate automated testing into a CI/CD pipeline to catch issues early in the development process.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -128,9 +118,10 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Secure Transactions:</span>{" "}
-                    Provide secure authentication and payment processing to
-                    protect user data and transactions.
+                    <span className="text-white">
+                    Efficient Reporting:
+                    </span>{" "}
+                    Provide detailed test reports to help developers quickly identify and fix issues.
                   </div>
                 </div>
               </p>
@@ -178,9 +169,25 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
+                    <span className="text-white">Test Setup:</span>{" "}
+                    Initialize Playwright testing environment for WordPress.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
                     <span className="text-white">User Authentication:</span>{" "}
-                    Enable users to register, log in, and manage their profiles
-                    securely.
+                    Automate login and authentication processes for WordPress admin and user accounts.
+                    </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Plugin Installation and Activation:</span> Automate the process of installing and activating WordPress plugins.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -188,9 +195,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Restaurant Listings:</span>{" "}
-                    Display a list of available restaurants with detailed menus
-                    and reviews.
+                    <span className="text-white">Functional Testing:</span>{" "}
+                    Create tests to validate core functionalities of the plugins, including form submissions, database updates, and UI interactions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -198,48 +204,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Search and Filter:</span> Allow
-                    users to search for restaurants and filter results based on
-                    cuisine, ratings, and location.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Order Placement:</span>{" "}
-                    Facilitate the easy selection of menu items, customization
-                    of orders, and addition to the cart.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Payment Integration:</span>{" "}
-                    Integrate secure payment gateways for processing
-                    transactions.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Order Tracking:</span> Provide
-                    real-time order tracking from preparation to delivery.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Admin Dashboard:</span> Create
-                    a dashboard for administrators and restaurant partners to
-                    manage listings, orders, and delivery logistics.
+                    <span className="text-white">Regression Testing:</span>{" "}
+                    Ensure new changes do not introduce any new bugs or regressions in existing functionality.
                   </div>
                 </div>
               </p>
@@ -264,26 +230,26 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiMongodb />
+                <SiPlaywright  />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                MongoDB
+                PlayWright
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiExpress />
+                <SiJavascript />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Express
+                JavaScript
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaReact />
+                <FaWordpress />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                React
+                WordPress
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -296,35 +262,18 @@ export default function Project1() {
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaBootstrap />
+                <SiJest />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Bootstrap
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <TbBrandRedux />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Redux
+                Jest
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiAxios />
+                <SiGithubactions />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Axios
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <SiGooglemaps />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Map
+                Git Action
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -359,8 +308,7 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">Project Setup:</span>{" "}
-                    Initialize the MERN stack project with a structured
-                    directory layout.
+                    Initialize a Node.js project and install Playwright and Jest.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -368,9 +316,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Database Design:</span> Design
-                    MongoDB schemas for users, restaurants, menu items, and
-                    orders.
+                    <span className="text-white">Playwright Configuration:</span> Set up Playwright configuration to define browsers, test environment, and other settings.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -378,10 +324,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Backend Development:</span>{" "}
-                    Develop RESTful APIs using Express.js to handle user
-                    authentication, restaurant data, order processing, and
-                    payment integration.
+                    <span className="text-white">WordPress Setup:</span>{" "}
+                    Install and configure a local WordPress instance for testing purposes.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -389,10 +333,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Frontend Development:</span>{" "}
-                    Build the React application with components for user
-                    interfaces, including registration, restaurant browsing,
-                    order management, and tracking.
+                    <span className="text-white">Automate Authentication:</span>{" "}
+                    Write scripts to automate the login process for WordPress admin and user roles.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -400,10 +342,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">State Management:</span>{" "}
-                    Implement Redux for managing the global state and handling
-                    actions related to authentication, order placement, and data
-                    fetching.
+                    <span className="text-white">Automate Plugin Handling:</span>{" "}
+                    Create scripts to automate the installation, activation, and deactivation of WordPress plugins.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -411,9 +351,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Integration:</span> Connect the
-                    frontend with backend APIs using Axios, ensuring secure and
-                    efficient data transfer.
+                    <span className="text-white">Functional Test Development:</span>{" "}
+                    Write tests to validate key functionalities of plugins, including form interactions, data handling, and UI behavior.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -421,11 +360,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Payment and Maps Integration:
-                    </span>{" "}
-                    Integrate payment gateways and Google Maps API for enhanced
-                    functionality.
+                    <span className="text-white">Compatibility Testing:</span>{" "}
+                    Develop tests to verify plugin compatibility with different WordPress versions and themes.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -433,9 +369,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Testing and QA:</span> Conduct
-                    thorough testing of all components and features to ensure
-                    functionality, security, and performance.
+                    <span className="text-white">Performance Testing:</span>{" "}
+                    Implement tests to measure the impact of plugins on site performance.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -443,9 +378,17 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Deployment:</span> Deploy the
-                    application on a cloud platform like AWS or Heroku for
-                    scalability and accessibility.
+                    <span className="text-white">Visual Regression Testing:</span>{" "}
+                    Set up visual regression tests to capture screenshots and detect UI changes.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Continuous Integration:</span>{" "}
+                    Integrate tests into a CI/CD pipeline to run tests automatically on code changes.
                   </div>
                 </div>
               </p>
@@ -493,11 +436,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Seamless User Experience:
-                    </span>{" "}
-                    Provide a smooth and intuitive platform for users to order
-                    food and track deliveries.
+                  <span className="text-bold text-white">Improved Reliability:</span> Automated tests will help catch bugs and issues early, improving the reliability of WordPress plugins.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -505,11 +444,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Efficient Order Management:
-                    </span>{" "}
-                    Enable restaurants to manage orders efficiently and improve
-                    customer satisfaction.
+                  <span className="text-bold text-white">Reduced Manual Effort:</span> Automation reduces the need for repetitive manual testing, saving time and resources.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -517,9 +452,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Scalability:</span>Scalability:
-                    Ensure the application can handle high traffic and large
-                    volumes of data seamlessly.
+                  <span className="text-bold text-white">Cross-Browser Functionality:</span> Confirm that the calculator works seamlessly across different web browsers.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -527,8 +460,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Security:</span> Maintain high
-                    standards of security for user data and transactions.
+                  <span className="text-bold text-white">Continuous Quality Assurance:</span> Maintain high quality and reliability of the calculator through automated testing integrated into the development pipeline.
                   </div>
                 </div>
               </p>
@@ -541,10 +473,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By developing the Food Delivery Full Stack Web Application using the
-            MERN stack, we aim to create a robust and scalable platform that
-            meets the needs of customers and restaurant partners, enhancing the
-            food ordering and delivery experience.
+            By implementing WordPress Plugins Automation Testing with Playwright, developers can enhance the quality and reliability of their plugins, ensuring they deliver a seamless experience to users across different environments and WordPress configurations.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">

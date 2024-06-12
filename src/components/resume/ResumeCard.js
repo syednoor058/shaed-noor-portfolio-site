@@ -9,13 +9,13 @@ export default function ResumeCard(props) {
         </span>
       </div>
       <div className="w-full bg-cardColor hover:bg-cardColorHover duration-300 rounded-lg px-5 md:px-8 py-5 md:py-8 flex flex-col justify-center gap-3 md:gap-8 shadow-shadowOne">
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 justify-between md:items-center">
+        <div className="flex flex-row gap-5 md:gap-0 justify-between md:items-center">
           <div className="flex flex-col gap-2">
             <h2 className="text-base md:text-xl font-semibold group-hover:text-white duration-300">{props.title}</h2>
             <p className="text-xs md:text-sm text-gray-400 group-hover:text-white duration-300">{props.subTitle}</p>
             <p className="text-xs md:text-sm text-gray-400 group-hover:text-white duration-300"> {props.studyYear} </p>
           </div>
-          <div className="w-auto h-10 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium px-3">
+          <div className="w-auto h-10 text-designColor bg-black bg-opacity-25 rounded-md flex justify-center items-center text-sm font-medium px-3 border border-designColor border-opacity-50">
             <p> {props.result} </p>
           </div>
         </div>

@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaGithub, FaPython } from "react-icons/fa";
 import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiAxios, SiExpress, SiGooglemaps, SiMongodb } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { SiFastapi, SiNextdotjs, SiNumpy, SiPandas, SiScikitlearn, SiTailwindcss } from "react-icons/si";
 import { Link } from "react-router-dom";
 import foodDeliveryImg from "../assets/images/foodDelivery.png";
 import implimentImg from "../assets/images/implement.png";
@@ -44,13 +43,13 @@ export default function Project1() {
             className="text-md text-bold uppercase font-light text-designColor tracking-wide"
             data-aos="zoom-in"
           >
-            Full Stack Web Application
+            Machine Learning Prediction Application
           </p>
           <h1
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            HUNGRY SHAED WEB APPLICATION
+            Real Estate House Price Prediction System
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -64,13 +63,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Food Delivery Full Stack Web Application is a comprehensive
-            platform designed to connect users with local restaurants and
-            streamline the process of ordering food online. Built using the MERN
-            stack (MongoDB, Express.js, React, Node.js), this application
-            provides a seamless and efficient user experience, enabling
-            customers to browse menus, place orders, and track deliveries in
-            real-time.
+            The Real Estate House Price Prediction System is a machine learning-powered application designed to estimate the market value of residential properties. This system aids real estate agents, buyers, sellers, and investors by providing accurate price predictions based on various property attributes, enabling more informed decision-making in the real estate market.
           </p>
         </div>
 
@@ -94,9 +87,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User-Friendly Interface:</span>{" "}
-                    Develop an intuitive and responsive interface for both
-                    customers and restaurant partners.
+                    <span className="text-white">Accurate Price Estimation:</span>{" "}
+                    Develop a model that predicts the price of pre-owned cars with high accuracy.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -105,10 +97,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Efficient Order Management:
+                    User-Friendly Interface:
                     </span>{" "}
-                    Implement features to manage orders, track delivery status,
-                    and handle payments securely.
+                    Create an easy-to-use interface for users to input property details and receive price predictions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -117,20 +108,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Scalability and Performance:
+                    Data-Driven Insights:
                     </span>{" "}
-                    Ensure the application is scalable and performs efficiently
-                    under high traffic conditions.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Secure Transactions:</span>{" "}
-                    Provide secure authentication and payment processing to
-                    protect user data and transactions.
+                    Provide insights into how different factors influence house prices.
                   </div>
                 </div>
               </p>
@@ -178,9 +158,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User Authentication:</span>{" "}
-                    Enable users to register, log in, and manage their profiles
-                    securely.
+                    <span className="text-white">Input Property Details:</span>{" "}
+                    Allow users to input various property attributes such as location, size, number of bedrooms and bathrooms, age, condition, and amenities.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -188,9 +167,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Restaurant Listings:</span>{" "}
-                    Display a list of available restaurants with detailed menus
-                    and reviews.
+                    <span className="text-white">Price Prediction:</span>{" "}
+                    Generate an estimated market value based on the provided property details using advanced machine learning algorithms.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -198,9 +176,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Search and Filter:</span> Allow
-                    users to search for restaurants and filter results based on
-                    cuisine, ratings, and location.
+                    <span className="text-white">Visualization:</span> Offer visual insights and trends to show how different factors affect house prices.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -208,9 +184,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Order Placement:</span>{" "}
-                    Facilitate the easy selection of menu items, customization
-                    of orders, and addition to the cart.
+                    <span className="text-white">Comparative Analysis:</span>{" "}
+                    Enable users to compare predicted prices with historical data and similar properties in the area.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -218,28 +193,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Payment Integration:</span>{" "}
-                    Integrate secure payment gateways for processing
-                    transactions.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Order Tracking:</span> Provide
-                    real-time order tracking from preparation to delivery.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Admin Dashboard:</span> Create
-                    a dashboard for administrators and restaurant partners to
-                    manage listings, orders, and delivery logistics.
+                    <span className="text-white">Location-Based Insights:</span>{" "}
+                    Provide detailed insights based on geographical location, including neighborhood trends and local amenities.
                   </div>
                 </div>
               </p>
@@ -264,67 +219,59 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiMongodb />
+                <FaPython />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                MongoDB
+                Python
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiExpress />
+                <SiScikitlearn   />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Express
+                Scikit-Learn
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaReact />
+                <SiNumpy />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                React
+                Numpy
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaNodeJs />
+                <SiPandas />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Node
+                Pandas
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaBootstrap />
+                <SiFastapi />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Bootstrap
+                FastAPI
               </p>
             </div>
 
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <TbBrandRedux />
+                <SiTailwindcss />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Redux
+                Tailwind
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiAxios />
+                <SiNextdotjs />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Axios
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <SiGooglemaps />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Map
+                Next.js
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -358,9 +305,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Project Setup:</span>{" "}
-                    Initialize the MERN stack project with a structured
-                    directory layout.
+                    <span className="text-white">Data Collection and Preprocessing:</span>{" "}
+                    Collect comprehensive datasets of residential property sales from various sources. Clean and preprocess the data to handle missing values, outliers, and categorical encoding.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -368,9 +314,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Database Design:</span> Design
-                    MongoDB schemas for users, restaurants, menu items, and
-                    orders.
+                    <span className="text-white">Feature Engineering:</span> Identify and create relevant features that impact house prices, such as location, property size, age, and additional amenities.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -378,10 +322,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Backend Development:</span>{" "}
-                    Develop RESTful APIs using Express.js to handle user
-                    authentication, restaurant data, order processing, and
-                    payment integration.
+                    <span className="text-white">Model Development:</span>{" "}
+                    Train multiple machine learning models (e.g., linear regression, decision trees, random forests, gradient boosting) and evaluate their performance.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -389,10 +331,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Frontend Development:</span>{" "}
-                    Build the React application with components for user
-                    interfaces, including registration, restaurant browsing,
-                    order management, and tracking.
+                    <span className="text-white">System Integration:</span>{" "}
+                    Develop backend and frontend components to integrate the prediction model with a user-friendly interface.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -400,10 +340,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">State Management:</span>{" "}
-                    Implement Redux for managing the global state and handling
-                    actions related to authentication, order placement, and data
-                    fetching.
+                    <span className="text-white">Testing and Evaluation:</span>{" "}
+                    Test the system with real-world data, validate the model’s accuracy, and make necessary adjustments.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -411,41 +349,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Integration:</span> Connect the
-                    frontend with backend APIs using Axios, ensuring secure and
-                    efficient data transfer.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">
-                      Payment and Maps Integration:
-                    </span>{" "}
-                    Integrate payment gateways and Google Maps API for enhanced
-                    functionality.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Testing and QA:</span> Conduct
-                    thorough testing of all components and features to ensure
-                    functionality, security, and performance.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Deployment:</span> Deploy the
-                    application on a cloud platform like AWS or Heroku for
-                    scalability and accessibility.
+                    <span className="text-white">Deployment:</span>{" "}
+                    Deploy the application on a cloud platform to ensure wide accessibility and scalability.
                   </div>
                 </div>
               </p>
@@ -493,11 +398,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Seamless User Experience:
-                    </span>{" "}
-                    Provide a smooth and intuitive platform for users to order
-                    food and track deliveries.
+                  <span className="text-bold text-white">Enhanced Pricing Accuracy:</span> Provide users with accurate price estimates for residential properties, reducing the uncertainty in buying, selling, and investing decisions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -505,11 +406,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Efficient Order Management:
-                    </span>{" "}
-                    Enable restaurants to manage orders efficiently and improve
-                    customer satisfaction.
+                  <span className="text-bold text-white">Market Insights:</span> Offer valuable insights into the factors affecting house prices, helping users understand market trends.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -517,18 +414,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Scalability:</span>Scalability:
-                    Ensure the application can handle high traffic and large
-                    volumes of data seamlessly.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Security:</span> Maintain high
-                    standards of security for user data and transactions.
+                  <span className="text-bold text-white">User Convenience:</span> Simplify the process of estimating house prices with a straightforward, user-friendly application.
                   </div>
                 </div>
               </p>
@@ -541,10 +427,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By developing the Food Delivery Full Stack Web Application using the
-            MERN stack, we aim to create a robust and scalable platform that
-            meets the needs of customers and restaurant partners, enhancing the
-            food ordering and delivery experience.
+            By implementing the Real Estate House Price Prediction System, we aim to create a robust tool that enhances transparency and efficiency in the real estate market, benefiting all stakeholders through accurate and data-driven price estimations.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">

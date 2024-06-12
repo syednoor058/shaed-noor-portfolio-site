@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { FaBootstrap, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
+import { FaGithub, FaReact, } from "react-icons/fa";
+import { HiArrowLeft, HiArrowUp, HiOutlineMail } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiAxios, SiExpress, SiGooglemaps, SiMongodb } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { SiJavascript, SiReactrouter, SiTailwindcss, } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import foodDeliveryImg from "../assets/images/foodDelivery.png";
 import implimentImg from "../assets/images/implement.png";
@@ -44,13 +44,13 @@ export default function Project1() {
             className="text-md text-bold uppercase font-light text-designColor tracking-wide"
             data-aos="zoom-in"
           >
-            Full Stack Web Application
+            Frontend Application
           </p>
           <h1
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            HUNGRY SHAED WEB APPLICATION
+            Personal Portfolio Website
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -64,13 +64,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Food Delivery Full Stack Web Application is a comprehensive
-            platform designed to connect users with local restaurants and
-            streamline the process of ordering food online. Built using the MERN
-            stack (MongoDB, Express.js, React, Node.js), this application
-            provides a seamless and efficient user experience, enabling
-            customers to browse menus, place orders, and track deliveries in
-            real-time.
+            The Personal Portfolio Website is a dynamic and visually appealing web application designed to showcase an individual’s skills, projects, and professional achievements. Built using React and styled with Tailwind CSS, this portfolio aims to provide a modern and responsive interface that highlights the user’s personal brand and work in an engaging manner.
           </p>
         </div>
 
@@ -94,9 +88,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User-Friendly Interface:</span>{" "}
-                    Develop an intuitive and responsive interface for both
-                    customers and restaurant partners.
+                    <span className="text-white">Professional Presentation:</span>{" "}
+                    Create a polished and professional online presence to showcase skills, projects, and experience.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -105,10 +98,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Efficient Order Management:
+                    Responsive Design:
                     </span>{" "}
-                    Implement features to manage orders, track delivery status,
-                    and handle payments securely.
+                    Ensure the website is fully responsive and accessible on all devices, including desktops, tablets, and smartphones.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -117,10 +109,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                      Scalability and Performance:
+                    User Engagement:
                     </span>{" "}
-                    Ensure the application is scalable and performs efficiently
-                    under high traffic conditions.
+                    Design an interactive and easy-to-navigate interface to keep visitors engaged.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -128,9 +119,10 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Secure Transactions:</span>{" "}
-                    Provide secure authentication and payment processing to
-                    protect user data and transactions.
+                    <span className="text-white">
+                    Customization:
+                    </span>{" "}
+                    Allow for easy updates and customization of content as the user’s portfolio evolves.
                   </div>
                 </div>
               </p>
@@ -178,9 +170,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">User Authentication:</span>{" "}
-                    Enable users to register, log in, and manage their profiles
-                    securely.
+                    <span className="text-white">Home Section:</span>{" "}
+                    A welcoming landing page with a brief introduction and a professional headshot.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -188,9 +179,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Restaurant Listings:</span>{" "}
-                    Display a list of available restaurants with detailed menus
-                    and reviews.
+                    <span className="text-white">Projects Section:</span>{" "}
+                    Showcase of completed projects with descriptions, technologies used, and links to live demos or GitHub repositories.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -198,9 +188,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Search and Filter:</span> Allow
-                    users to search for restaurants and filter results based on
-                    cuisine, ratings, and location.
+                    <span className="text-white">About Section:</span> A detailed section about the user, including a biography, skills, and professional background.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -208,9 +196,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Order Placement:</span>{" "}
-                    Facilitate the easy selection of menu items, customization
-                    of orders, and addition to the cart.
+                    <span className="text-white">Experience Section:</span>{" "}
+                    Timeline of professional experience, including job roles, responsibilities, and achievements.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -218,9 +205,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Payment Integration:</span>{" "}
-                    Integrate secure payment gateways for processing
-                    transactions.
+                    <span className="text-white">Contact Section:</span>{" "}
+                    A contact form and social media links for easy communication.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -228,18 +214,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Order Tracking:</span> Provide
-                    real-time order tracking from preparation to delivery.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Admin Dashboard:</span> Create
-                    a dashboard for administrators and restaurant partners to
-                    manage listings, orders, and delivery logistics.
+                    <span className="text-white">Animations and Effects:</span>{" "}
+                    Smooth animations and interactive effects to enhance user experience.
                   </div>
                 </div>
               </p>
@@ -264,22 +240,6 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiMongodb />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                MongoDB
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <SiExpress />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Express
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
                 <FaReact />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
@@ -288,43 +248,42 @@ export default function Project1() {
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaNodeJs />
+                <SiJavascript />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Node
+                JavaScript
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaBootstrap />
+                <SiReactrouter />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Bootstrap
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-2 justify-center items-center">
-              <div className="projectIcon">
-                <TbBrandRedux />
-              </div>
-              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Redux
+                React Router
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiAxios />
+                <SiTailwindcss />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Axios
+                Tailwind
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiGooglemaps />
+                <TbBrandFramerMotion />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Map
+                Framer Motion
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 justify-center items-center">
+              <div className="projectIcon">
+                <HiOutlineMail />
+              </div>
+              <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
+                Email.js
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -359,8 +318,7 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">Project Setup:</span>{" "}
-                    Initialize the MERN stack project with a structured
-                    directory layout.
+                    Initialize the React project and configure the project structure.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -368,9 +326,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Database Design:</span> Design
-                    MongoDB schemas for users, restaurants, menu items, and
-                    orders.
+                    <span className="text-white">Tailwind CSS Integration:</span> Set up Tailwind CSS for styling and configure the theme and custom styles.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -378,10 +334,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Backend Development:</span>{" "}
-                    Develop RESTful APIs using Express.js to handle user
-                    authentication, restaurant data, order processing, and
-                    payment integration.
+                    <span className="text-white">Component Development:</span>{" "}
+                    Develop React components for each section of the portfolio (Home, About, Projects, Experience, Contact, Blog).
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -389,10 +343,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Frontend Development:</span>{" "}
-                    Build the React application with components for user
-                    interfaces, including registration, restaurant browsing,
-                    order management, and tracking.
+                    <span className="text-white">Routing:</span>{" "}
+                    Implement React Router to handle navigation between different sections.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -400,10 +352,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">State Management:</span>{" "}
-                    Implement Redux for managing the global state and handling
-                    actions related to authentication, order placement, and data
-                    fetching.
+                    <span className="text-white">Animations:</span>{" "}
+                    Add smooth animations and interactive effects using Framer Motion.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -411,9 +361,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Integration:</span> Connect the
-                    frontend with backend APIs using Axios, ensuring secure and
-                    efficient data transfer.
+                    <span className="text-white">Form Handling:</span>{" "}
+                    Integrate EmailJS for handling contact form submissions.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -421,11 +370,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Payment and Maps Integration:
-                    </span>{" "}
-                    Integrate payment gateways and Google Maps API for enhanced
-                    functionality.
+                    <span className="text-white">Testing and Optimization:</span>{" "}
+                    Test the website across different devices and browsers, optimizing for performance and accessibility.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -433,19 +379,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Testing and QA:</span> Conduct
-                    thorough testing of all components and features to ensure
-                    functionality, security, and performance.
-                  </div>
-                </div>
-                <div className="flex flex-row gap-4">
-                  <div className="text-designColor pt-1.5">
-                    <MdDoubleArrow />
-                  </div>
-                  <div>
-                    <span className="text-white">Deployment:</span> Deploy the
-                    application on a cloud platform like AWS or Heroku for
-                    scalability and accessibility.
+                    <span className="text-white">Deployment:</span>{" "}
+                    Deploy the website on a hosting platform such as Vercel or Netlify for live access.
                   </div>
                 </div>
               </p>
@@ -493,11 +428,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Seamless User Experience:
-                    </span>{" "}
-                    Provide a smooth and intuitive platform for users to order
-                    food and track deliveries.
+                  <span className="text-bold text-white">Enhanced Online Presence:</span> A professional and visually appealing portfolio website that effectively showcases the user’s skills and projects.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -505,11 +436,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">
-                      Efficient Order Management:
-                    </span>{" "}
-                    Enable restaurants to manage orders efficiently and improve
-                    customer satisfaction.
+                  <span className="text-bold text-white">Increased Engagement:</span> An interactive and easy-to-navigate interface that keeps visitors engaged and encourages them to explore the user’s work.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -517,9 +444,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Scalability:</span>Scalability:
-                    Ensure the application can handle high traffic and large
-                    volumes of data seamlessly.
+                  <span className="text-bold text-white">Responsive Design:</span> A fully responsive website that looks great and functions well on all devices.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -527,8 +452,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Security:</span> Maintain high
-                    standards of security for user data and transactions.
+                  <span className="text-bold text-white">Easy Maintenance:</span> A modular and maintainable codebase that allows for easy updates and additions to the portfolio.
                   </div>
                 </div>
               </p>
@@ -541,10 +465,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By developing the Food Delivery Full Stack Web Application using the
-            MERN stack, we aim to create a robust and scalable platform that
-            meets the needs of customers and restaurant partners, enhancing the
-            food ordering and delivery experience.
+            By developing a Personal Portfolio Website using React and Tailwind CSS, the user will have a powerful tool to present their professional brand, attract potential employers or clients, and demonstrate their expertise in a modern and engaging way.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">
