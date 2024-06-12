@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Cards(props) {
   return (
-    <div className="w-full px-5 h-60 py-5 rounded-lg shadow-shadowOne flex items-center bg-black bg-opacity-40 hover:bg-opacity-70 group hover:bg-gradient-to-b transition-colors duration-100" data-aos="zoom-in">
+    <div className="w-full px-5 h-60 py-5 rounded-lg shadow-shadowOne flex items-center bg-cardColor hover:bg-cardColorHover group hover:bg-gradient-to-b transition-colors duration-100" data-aos="zoom-in">
       <div className="h-55 overflow-y-hidden">
         <div className="h-full flex flex-col gap-4 translate-y-9 group-hover:translate-y-0 transition-transform duration-500">
           <div>

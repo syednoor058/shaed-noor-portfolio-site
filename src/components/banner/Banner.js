@@ -20,12 +20,14 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import resume from "../../assets/documents/Resume of SYED SHAEDUZZAMAN NOOR.pdf";
 import bannerImg from "../../assets/images/banner_pic.png";
 
+
 export default function Banner() {
   const [text] = useTypewriter({
     words: [
       "Software Engineer.",
       "SQA Engineer.",
       "Full Stack Developer.",
+      "AI Engineer.",
       "SEO Specialist.",
     ],
     loop: true,
@@ -37,9 +39,9 @@ export default function Banner() {
   return (
     <section
       id="home"
-      className="w-full pt-10 md:pt-5 pb-20 flex flex-col gap-10 lgl:flex-row xl:gap-0 items-center font-titleFont"
+      className="w-full h-full pt-10 pb-20 flex flex-col gap-20 lgl:flex-row lgl:gap-10 items-center font-titleFont"
     >
-      <div className="w-full lgl:w-1/2 flex flex-col gap-7">
+      <div className="w-full lgl:w-3/5 flex flex-col gap-7">
         <div className="flex flex-col gap-2">
           <h4 className="text-base md:text-lg font-normal" data-aos="zoom-in">
             WELCOME TO MY GALAXY
@@ -225,13 +227,14 @@ export default function Banner() {
           </div>
         </div>
       </div>
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative" data-aos="zoom-in" data-aos-duration="1600">
-        <img
-          className="w-[250px] lgl:w-[400px] h-auto z-10"
-          src={bannerImg}
-          alt="syed_shaeduzzaman_noor"
-        />
-        <div className="absolute bottom-0 w-[220px] h-[250px] lgl:w-[350px] lgl:h-[380px] shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-center items-center"></div>
+      <div className="w-full lgl:w-2/5 flex justify-center items-center" data-aos="zoom-in" data-aos-duration="1600">
+        <div className="py-1.5 px-3 lgl:py-2.5 lgl:px-5 shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-end items-center">
+          <img
+            className="w-[170px] lgl:w-[280px] h-auto z-10"
+            src={bannerImg}
+            alt="syed_shaeduzzaman_noor"
+          />
+        </div>
       </div>
     </section>
   );

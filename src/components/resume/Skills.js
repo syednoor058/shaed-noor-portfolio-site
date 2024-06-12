@@ -4,8 +4,8 @@ import React from "react";
 export default function Skills() {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      initial={{ opacity: 1 }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
     >
       <div className="w-full flex flex-col mdl:flex-row gap-5 mdl:gap-20" data-aos="zoom-in">
         {/* Programing Languages Skills */}
@@ -25,9 +25,9 @@ export default function Skills() {
                 <p className="text-xs mdl:text-sm uppercase font-medium">C++</p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-60%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[60%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -42,9 +42,10 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-72%", opacity: 0 }}
+                    // initial={{x: "-100%", opacity: 1}}
+                    initial={{x: "-100%", opacity: 1}}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[72%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -59,9 +60,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-89%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[89%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -76,9 +77,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-78%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[78%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -91,9 +92,9 @@ export default function Skills() {
                 <p className="text-xs mdl:text-sm uppercase font-medium">SQL</p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-64%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[64%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -121,9 +122,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-95%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[95%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -138,9 +139,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-83%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[83%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -155,9 +156,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-48%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[48%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -173,9 +174,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-85%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[85%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -190,9 +191,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-96%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[96%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -207,9 +208,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-38%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[38%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -237,9 +238,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-70%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[70%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -254,9 +255,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-85%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[85%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -271,9 +272,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-100%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[100%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -305,9 +306,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-72%", opacity: 0 }}
+                    initial={{x: "-100%", opacity: 1}}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[72%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -322,9 +323,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-78%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[78%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -339,9 +340,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-52%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[52%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -356,9 +357,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-61%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[61%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -373,9 +374,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-74%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[74%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -390,9 +391,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-92%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[92%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -407,9 +408,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-70%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[70%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -424,9 +425,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-37%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[37%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -441,9 +442,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-95%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[95%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -458,9 +459,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-90%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[90%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -475,9 +476,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-70%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[70%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -505,9 +506,9 @@ export default function Skills() {
                 <p className="text-xs mdl:text-sm uppercase font-medium">SEO</p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-86%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[86%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -522,9 +523,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-84%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[84%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -539,9 +540,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-85%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[85%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -556,9 +557,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-78%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[78%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">
@@ -573,9 +574,9 @@ export default function Skills() {
                 </p>
                 <span className="w-full h-1 mdl:h-2 bgOpacity inline-flex rounded-sm">
                   <motion.span
-                    initial={{ x: "-95%", opacity: 0 }}
+                    initial={{ x: "-100%", opacity: 1 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
+                    transition={{ duration: 1, delay: 0.5 }}
                     className="w-[95%] h-full bg-designColor rounded-sm relative"
                   >
                     <span className="text-xs mdl:text-sm absolute -top-5 mdl:-top-7 right-0">

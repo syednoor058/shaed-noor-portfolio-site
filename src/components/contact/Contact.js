@@ -79,7 +79,7 @@ export default function Contact() {
       </div>
       <div className="w-full">
         <div className="w-full h-full flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between lg:p-5">
-          <div className="w-full lg:w-[35%] xl:w-[25%] h-auto" data-aos="zoom-in">
+          <div className="w-full lg:w-[35%] xl:w-[25%] h-full" data-aos="zoom-in">
             <div className="bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-5 lg:p-8 flex flex-col gap-5 lg:gap-8">
               <div className="w-full flex justify-center">
                 <img

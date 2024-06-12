@@ -59,9 +59,9 @@ export default function Navbar() {
         <AnimatePresence>
           {toggleMenu && (
             <motion.div
-              initial={{ x: "-80%", opacity: 0 }}
+              initial={{ x: "-100%", opacity: 1}}
               animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
-              exit={{ x: "-80%", opacity: 0, transition: { duration: 0.5 } }}
+              exit={{ x: "-100%", opacity: 1, transition: { duration: 0.5 } }}
               // transition={{ duration: 0.5 }}
               className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-designColor p-4 scrollbar-hide"
             >
