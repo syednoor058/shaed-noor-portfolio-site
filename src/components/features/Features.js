@@ -6,11 +6,11 @@ import Cards from "./Cards";
 
 export default function Features() {
   return (
-    <section id="features" className="w-full pt-10 pb-10 md:pb-20">
+    <section id="features" className="w-full py-10 xl:py-0">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
           <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
-            Features
+            Services
           </h3>
           <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize" data-aos="zoom-in">
             What I Do

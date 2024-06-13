@@ -10,13 +10,13 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full pt-10 pb-10 md:pb-20">
+    <section id="projects" className="w-full py-10 lg:py-0">
       <div className="flex justify-center items-center text-center mb-14">
         <div className="flex flex-col gap-4 font-titleFont">
-          <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
+          <h3 className="text-sm uppercase font-light text-cardColorHover tracking-wide" data-aos="zoom-in">
             My Projects
           </h3>
-          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize" data-aos="zoom-in">
+          <h1 className="text-2xl md:text-3xl text-designColor font-bold capitalize" data-aos="zoom-in">
             Visit My Portfolio and Give Your Feedback
           </h1>
         </div>

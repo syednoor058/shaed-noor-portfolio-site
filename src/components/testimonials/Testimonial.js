@@ -87,7 +87,7 @@ export default function Testimonial() {
   };
 
   return (
-    <section id="testimonial" className="w-full h-auto pt-10 pb-10 md:pb-20">
+    <section id="testimonial" className="w-full h-auto pt-10">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
           <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
@@ -102,7 +102,7 @@ export default function Testimonial() {
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-cardColor  flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md" data-aos="zoom-in">
+              <div className="w-full lg:w-[35%] h-auto bg-cardColor lgl:shadow-shadowOne  flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md" data-aos="zoom-in">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={tanhaImg}
@@ -122,7 +122,7 @@ export default function Testimonial() {
                 <span className="text-4xl lg:text-8xl" data-aos="zoom-in">
                   <LuQuote />
                 </span>
-                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor  rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5" data-aos="zoom-in">
+                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor lgl:shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5" data-aos="zoom-in">
                   <div className="flex gap-2 lg:gap-0 justify-between items-center border-b-2 border-b-gray-900 pb-6">
                     <div>
                       <h3 className="text-base lg:text-xl tracking-wide text-medium">
@@ -141,7 +141,7 @@ export default function Testimonial() {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                  <p className="text-xs lg:text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     "Creating my cake business website with Shaed Noor was an
                     absolute pleasure. Their expertise and attention to detail
                     brought my vision to life beautifully. With their guidance,
@@ -156,7 +156,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-cardColor  flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
+              <div className="w-full lg:w-[35%] h-auto bg-cardColor lgl:shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={shararImg}
@@ -176,7 +176,7 @@ export default function Testimonial() {
                 <span className="text-6xl lg:text-8xl">
                   <LuQuote />
                 </span>
-                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor  rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
+                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor lgl:shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
                   <div className="flex gap-2 lg:gap-0 justify-between items-center border-b-2 border-b-gray-900 pb-6">
                     <div>
                       <h3 className="text-base lg:text-xl tracking-wide text-medium">
@@ -195,7 +195,7 @@ export default function Testimonial() {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                  <p className="text-xs lg:text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     "Thanks to Shaed's SEO services, our website's visibility has soared. His expertise and dedication have significantly boosted our and clients' online presence, driving more traffic to clients' sites than ever before. We couldn't be happier with the results and highly recommend Shaed Noor to anyone seeking top-notch SEO solutions."
                   </p>
                 </div>
@@ -205,7 +205,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-cardColor  flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
+              <div className="w-full lg:w-[35%] h-auto bg-cardColor lgl:shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={rhituImg}
@@ -225,7 +225,7 @@ export default function Testimonial() {
                 <span className="text-6xl lg:text-8xl">
                   <LuQuote />
                 </span>
-                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor  rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
+                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor lgl:shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
                   <div className="flex gap-2 lg:gap-0 justify-between items-center border-b-2 border-b-gray-900 pb-6">
                     <div>
                       <h3 className="text-base lg:text-xl tracking-wide text-medium">
@@ -244,7 +244,7 @@ export default function Testimonial() {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                  <p className="text-xs lg:text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     "Shaed Noor has been instrumental in transforming my digital marketing strategy. His innovative approach and thorough understanding of the industry have led to increased engagement and brand recognition across various platforms. I am impressed by his professionalism and commitment to my chamber's success. Working with Shaed Noor has been a game-changer for my career."
                   </p>
                 </div>
@@ -254,7 +254,7 @@ export default function Testimonial() {
           </div>
           <div className="w-full">
             <div className="w-full h-full flex flex-col lg:flex-row justify-between lg:p-5">
-              <div className="w-full lg:w-[35%] h-auto bg-cardColor  flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 lg:mb-0 rounded-md">
+              <div className="w-full lg:w-[35%] h-auto bg-cardColor lgl:shadow-shadowOne flex lg:flex-col p-5 lg:p-8 gap-8 lg:justify-center mb-3 rounded-md">
                 <img
                   className="h-20 lg:h-auto rounded-lg object-cover"
                   src={azizulImg}
@@ -274,7 +274,7 @@ export default function Testimonial() {
                 <span className="text-6xl lg:text-8xl">
                   <LuQuote />
                 </span>
-                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor  rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
+                <div className="w-full h-[70%] py-5 lg:py-8 bg-cardColor lgl:shadow-shadowOne rounded-lg px-5 lg:px-8 flex flex-col justify-center gap-5">
                   <div className="flex gap-2 lg:gap-0 justify-between items-center border-b-2 border-b-gray-900 pb-6">
                     <div>
                       <h3 className="text-base lg:text-xl tracking-wide text-medium">
@@ -293,7 +293,7 @@ export default function Testimonial() {
                       <RiStarFill />
                     </div>
                   </div>
-                  <p className="text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                  <p className="text-xs lg:text-sm font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     "Choosing Shaed Noor for both digital marketing and web development was one of the best decisions I made for our business. His seamless integration of these services has resulted in a cohesive online presence that perfectly aligns with our brand. From designing our website to implementing effective marketing strategies, Shaed Noor has exceeded our expectations at every turn."
                   </p>
                 </div>

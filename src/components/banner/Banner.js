@@ -39,7 +39,7 @@ export default function Banner() {
   return (
     <section
       id="home"
-      className="w-full h-full pt-10 pb-20 flex flex-col gap-10 lgl:flex-row lgl:gap-10 items-center font-titleFont"
+      className="w-full pb-10 lgl:pb-0 h-full pt-10 flex flex-col gap-14 lgl:flex-row lgl:gap-10 items-center font-titleFont"
     >
       <div className="w-full lgl:w-3/5 flex flex-col gap-7">
         <div className="flex flex-col gap-2">

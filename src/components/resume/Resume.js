@@ -10,7 +10,7 @@ export default function Resume() {
   const [experienceData, setExperienceData] = useState(false);
 
   return (
-    <section id="resume" className="w-full pt-10 pb-10 md:pb-20">
+    <section id="resume" className="w-full pt-10 lg:pt-0 pb-10 md:pb-20">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
           <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
