@@ -34,13 +34,10 @@ export default function About() {
               continuous learning in a dynamic, growth-oriented environment.
             </p>
             <p className="text sm lg:text-base text-lightText text-center text-wrap lg:text-left">
-              Recent computer science graduate with a strong foundation in
-              software development, algorithms, and data structures, seeking a
-              challenging position as a Software Engineer. Eager to apply
-              academic knowledge and hands-on experience from personal projects,
-              and research to contribute to innovative projects and improve
-              software solutions. Passionate about coding, problem-solving, and
-              continuous learning in a dynamic, growth-oriented environment.
+            My proficiency in working within Agile and Scrum methodologies has enabled me to adapt quickly to dynamic project environments, fostering seamless collaboration and rapid iteration cycles. With a proven track record of delivering results within fast-paced development lifecycles, I consistently ensure that software meets rigorous quality standards while adhering to tight deadlines.
+            </p>
+            <p className="text sm lg:text-base text-lightText text-center text-wrap lg:text-left">
+            I thrive on challenges and enjoy staying at the forefront of technology trends. Whether it's ensuring flawless software performance or driving impactful digital marketing strategies, I'm driven by a passion for excellence and continuous growth.
             </p>
             </div>
           </div>
