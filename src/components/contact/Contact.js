@@ -91,24 +91,24 @@ export default function Contact() {
               </div>
               <div className="flex flex-col gap-3">
                 <div>
-                  <h2 className="text-lg lg:text-xl font-bold text-designColor">
+                  <h2 className="text-center lg:text-left text-lg lg:text-xl font-bold text-designColor">
                     Syed Shaeduzzaman Noor
                   </h2>
-                  <p className="text-xs lg:text-sm tracking-wide text-gray-500">
+                  <p className="text-xs lg:text-sm text-center lg:text-left tracking-wide text-gray-500">
                     Software Engineer | SQA Engineer | SEO Specialist
                   </p>
                 </div>
                 <div className="flex flex-col">
-                  <p className="text-sm lg:text-base text-gray-400">
+                  <p className="text-sm lg:text-base text-center lg:text-left text-gray-400">
                     8no. Tootpara Central Rd, Khulna Sadar, Khulna, Bangladesh
                   </p>
-                  <p className="text-sm lg:text-base text-gray-400">
+                  <p className="text-sm lg:text-base text-center lg:text-left text-gray-400">
                     Mobile: +88 01782 734573
                   </p>
-                  <p className="text-sm lg:text-base text-gray-400">
+                  <p className="text-sm lg:text-base text-center lg:text-left text-gray-400">
                     Email: syednoor058@gmail.com
                   </p>
-                  <div className="flex gap-4 mt-3">
+                  <div className="w-full flex gap-4 mt-3 justify-center lg:justify-start">
                     <span className="footerIcon">
                       <a
                         href="https://www.facebook.com/shaed058/"

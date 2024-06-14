@@ -46,7 +46,7 @@ export default function About() {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center" data-aos="zoom-in">
             <img
-              className="h-[250px] lg:h-[400px] rounded-lg object-cover"
+              className="h-[300px] lg:h-[400px] rounded-lg object-cover"
               src={aboutImg}
               alt="shaed_noor"
               style={{ width: "auto" }}

@@ -230,7 +230,7 @@ export default function Banner() {
       <div className="w-full lgl:w-2/5 flex justify-center items-center" data-aos="zoom-in" data-aos-duration="1600">
         {/* <div className="py-2 px-6 lgl:py-2.5 lgl:px-10 shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-end items-center"> */}
           <img
-            className="w-[220px] lgl:w-[320px] h-auto z-10"
+            className="w-[250px] lgl:w-[320px] h-auto z-10"
             src={bannerImg}
             alt="syed_shaeduzzaman_noor"
           />
