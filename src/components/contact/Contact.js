@@ -31,13 +31,13 @@ export default function Contact() {
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
     } else if (email === "") {
-      setErrMsg("Please give your Email!");
+      setErrMsg("Email is required!");
     } else if (!emailValidation(email)) {
-      setErrMsg("Give a valid Email!");
+      setErrMsg("Invalid email address!");
     } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
+      setErrMsg("Subject is required!");
     } else if (message === "") {
-      setErrMsg("Message is required!");
+      setErrMsg("Empty message can not be sent!");
     } else {
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
