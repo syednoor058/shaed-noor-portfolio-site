@@ -109,7 +109,7 @@ export default function Contact() {
                     Email: syednoor058@gmail.com
                   </p>
                   <div className="w-full flex gap-4 mt-3 justify-center lg:justify-start">
-                    <span className="footerIcon">
+                    <div className="contactIcon">
                       <a
                         href="https://www.facebook.com/shaed058/"
                         target="_blank"
@@ -117,8 +117,8 @@ export default function Contact() {
                       >
                         <FaFacebookF />
                       </a>
-                    </span>
-                    <span className="footerIcon">
+                    </div>
+                    <div className="contactIcon">
                       <a
                         href="https://www.linkedin.com/in/shaednoor/"
                         target="_blank"
@@ -126,8 +126,8 @@ export default function Contact() {
                       >
                         <FaLinkedinIn />
                       </a>
-                    </span>
-                    <span className="footerIcon">
+                    </div>
+                    <div className="contactIcon">
                       <a
                         href="https://www.instagram.com/shaed_noor/"
                         target="_blank"
@@ -135,8 +135,8 @@ export default function Contact() {
                       >
                         <FaInstagram />
                       </a>
-                    </span>
-                    <span className="footerIcon">
+                    </div>
+                    <div className="contactIcon">
                       <a
                         href="https://github.com/syednoor058"
                         target="_blank"
@@ -144,7 +144,7 @@ export default function Contact() {
                       >
                         <FaGithub />
                       </a>
-                    </span>
+                    </div>
                   </div>
                 </div>
               </div>

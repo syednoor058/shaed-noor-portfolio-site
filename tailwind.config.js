@@ -26,9 +26,10 @@ module.exports = {
         cardColorHover: "#0a0b0c",    
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
-        shadowTwo: "10px 10px 16px #696969",
-        shadowThree: "5px 5px 10px #000000",
+        shadowOne: "10px 10px 10px #1c1e22, -10px -10px 10px #262a2e",
+        shadowTwo: "10px 10px 10px #696969",
+        shadowThree: "5px 5px 10px rgba(0.5,0.5,0.5,0.7), -5px -5px 10px rgba(0.5,0.5,0.5,0.7)",
+        shadowFour: "5px 5px 10px rgba(0.5,0.5,0.5,0.7)",
       },
     },
   },
