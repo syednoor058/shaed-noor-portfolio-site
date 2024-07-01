@@ -87,44 +87,7 @@ export default function Banner() {
             <h2 className="text-sm md:text-base uppercase font-titleFont mb-2 md:mb-4" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="0">
               Find me in
             </h2>
-            {/* <div className="flex gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
-              <span className="bannerIcon">
-                <a
-                  href="https://www.facebook.com/shaed058/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookF />
-                </a>
-              </span>
-              <span className="bannerIcon">
-                <a
-                  href="https://www.linkedin.com/in/shaednoor/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </span>
-              <span className="bannerIcon">
-                <a
-                  href="https://www.instagram.com/shaed_noor/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaInstagram />
-                </a>
-              </span>
-              <span className="bannerIcon">
-                <a
-                  href="https://github.com/syednoor058"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-            </div> */}
+            
             <div className="grid grid-cols-3 sml:grid-cols-4 gap-3 md:gap-4" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="0">
               <div className="bannerIcon">
                 <a
