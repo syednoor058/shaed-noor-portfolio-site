@@ -28,8 +28,8 @@ module.exports = {
       boxShadow: {
         shadowOne: "10px 10px 10px #1c1e22, -10px -10px 10px #262a2e",
         shadowTwo: "10px 10px 10px #696969",
-        shadowThree: "5px 5px 10px rgba(0.5,0.5,0.5,0.7), -5px -5px 10px rgba(0.5,0.5,0.5,0.7)",
-        shadowFour: "5px 5px 10px rgba(0.5,0.5,0.5,0.7)",
+        shadowThree: "10px 15px 15px -5px rgb(0 0 0 / 0.1), 5px 8px 5px -6px rgb(0 0 0 / 0.1)",
+        shadowFour: "5px 5px 8px -1px rgba(1,1,1,0.7)",
       },
     },
   },

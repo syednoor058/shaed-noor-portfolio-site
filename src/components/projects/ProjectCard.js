@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <>
       <div
-        className="w-full px-5 py-5 rounded-lg flex flex-col shadow-shadowTwo bg-cardColor hover:bg-cardColorHover hover:bg-gradient-to-b transition-colors duration-500 group"
+        className="w-full px-5 py-5 rounded-lg flex flex-col shadow-shadowThree shadow-designColor bg-cardColor hover:bg-cardColorHover hover:bg-gradient-to-b transition-colors duration-500 group"
         data-aos="zoom-in"
         data-aos-offset="100"
       >
