@@ -116,7 +116,7 @@ export default function Contact() {
             className="w-[85%] lg:w-[30%] xl:w-[30%] h-full"
             data-aos="zoom-in"
           >
-            <div className="bg-cardColor shadow-xl shadow shadow-designColor p-5 lg:p-8 flex flex-col gap-5 lg:gap-8 rounded-md">
+            <div className="bg-cardColor shadow-xl shadow shadow-[#696969] p-5 lg:p-8 flex flex-col gap-5 lg:gap-8 rounded-md">
               <div className="w-full flex justify-center">
                 <img
                   className="h-[180px] lg:h-[250px] rounded-lg object-cover"
