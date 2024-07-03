@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
-import { FaGithub, FaGlobeAmericas, FaPython } from "react-icons/fa";
+import { FaGithub, FaJava, FaLaptopCode } from "react-icons/fa";
 import { HiArrowLeft, HiArrowUp } from "react-icons/hi";
 import { MdDoubleArrow } from "react-icons/md";
-import { SiApachejmeter, SiJavascript, SiJunit5, SiSelenium } from "react-icons/si";
+import { SiApachejmeter, SiApachemaven, SiJunit5, SiSelenium } from "react-icons/si";
 import { Link } from "react-router-dom";
-import foodDeliveryImg from "../assets/images/foodDelivery.png";
-import implimentImg from "../assets/images/implement.png";
 import objImg from "../assets/images/objectives.png";
-import expectedImg from "../assets/images/outcomes.png";
+import eLearningApp from "../assets/project_five/elearningAppUI.png";
+import extentReport from "../assets/project_five/extentReport.PNG";
+import iListenerImg from "../assets/project_five/iListenerClass.PNG";
+import readExelImg from "../assets/project_five/readXLS.PNG";
 
 export default function Project1() {
 
@@ -49,7 +50,7 @@ export default function Project1() {
             className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
             data-aos="zoom-in"
           >
-            Bank Interest Calculator
+            E-Learning Application Automation Testing Project
           </h1>
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -63,7 +64,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The Bank Interest Calculator Automation Testing project focuses on automating the testing process of a bank interest calculator application. This project aims to ensure the calculator's accuracy, reliability, and performance across different scenarios and input values. By utilizing automated testing tools, the project aims to reduce manual testing efforts, quickly identify defects, and ensure that the calculator performs as expected under various conditions.
+            The E-learning App Automation project focuses on automating the testing process for an e-learning application similar to Udemy. This project aims to ensure the app's reliability, functionality, and performance by using Selenium WebDriver for browser automation, Java for scripting, and TestNG for test management. The automated tests cover critical features such as user authentication, course enrollment, payment processing, and user dashboard functionality.
           </p>
         </div>
 
@@ -82,13 +83,13 @@ export default function Project1() {
                 className="text-md text-bold font-light text-lightText tracking-wide"
                 data-aos="zoom-in"
               >
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row gap-4 ">
                   <div className="text-designColor pt-1.5">
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Accuracy Verification:</span>{" "}
-                    Ensure the calculator provides accurate interest calculations for various input scenarios.
+                    <span className="text-white">Automate Key Functionalities:</span>{" "}
+                    Ensure critical features of the e-learning app function correctly through automated testing.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -97,9 +98,9 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">
-                    Efficiency and Performance:
+                    Enhance Test Coverage:
                     </span>{" "}
-                    Validate that the calculator operates efficiently without performance degradation under high usage.
+                    Increase the scope of testing to cover a wide range of scenarios and edge cases.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -124,6 +125,17 @@ export default function Project1() {
                     Integrate automated tests into a CI/CD pipeline to maintain quality with every update.
                   </div>
                 </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">
+                    Maintain High Quality:
+                    </span>{" "}
+                    Ensure the application meets high standards of quality and provides a seamless user experience.
+                  </div>
+                </div>
               </p>
             </div>
           </div>
@@ -132,7 +144,7 @@ export default function Project1() {
             data-aos="zoom-in"
           >
             <img
-              className="w-[170px] lgl:w-[250px] h-auto"
+              className="w-[170px] lgl:w-[250px] h-auto "
               src={objImg}
               alt="objectives"
             />
@@ -141,18 +153,18 @@ export default function Project1() {
 
         {/* FEATURES */}
 
-        <div className="flex flex-col-reverse lgl:flex-row gap-10 justify-center items-center">
+        <div className="flex flex-col-reverse gap-10 justify-center items-center">
           <div
-            className="w-full lgl:w-1/3 flex justify-center items-center "
+            className="w-full flex justify-center items-center "
             data-aos="zoom-in"
           >
             <img
-              className="w-[220px] lgl:w-[320px] h-auto"
-              src={foodDeliveryImg}
+              className="w-[80%] h-auto"
+              src={eLearningApp}
               alt="food_delivery"
             />
           </div>
-          <div className="w-full lgl:w-2/3">
+          <div className="w-full">
             <div className="w-full flex flex-col gap-4">
               <h3
                 className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
@@ -178,8 +190,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Calculation Accuracy:</span>{" "}
-                    Test various scenarios for simple and compound interest calculations, ensuring correct results.
+                    <span className="text-white">Course Enrollment:</span>{" "}
+                    Verify the process of searching for courses, enrolling in courses, and accessing course materials.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -187,7 +199,7 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Performance Testing:</span> Measure the response time and performance of the calculator under different load conditions.
+                    <span className="text-white">Payment Processing:</span>{" "}Test the entire payment workflow, including payment gateway integration and transaction validation.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -195,8 +207,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Browser Compatibility:</span>{" "}
-                    Test the calculator across multiple browsers such as Chrome, Firefox, Safari, and Edge.
+                    <span className="text-white">User Dashboard:</span>{" "}
+                    Ensure the user dashboard displays accurate information and functions correctly.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -204,8 +216,8 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Regression Testing:</span>{" "}
-                    Ensure new changes do not introduce any new bugs or regressions in existing functionality.
+                    <span className="text-white">Content Interaction:</span>{" "}
+                    Validate interactions with course content, such as video playback, quizzes, and assignments.
                   </div>
                 </div>
               </p>
@@ -230,18 +242,18 @@ export default function Project1() {
           >
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaPython />
+                <FaJava />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Python
+                Java
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <SiJavascript />
+                <FaLaptopCode />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                JavaScript
+                TestNG
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -270,10 +282,10 @@ export default function Project1() {
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="projectIcon">
-                <FaGlobeAmericas />
+                <SiApachemaven />
               </div>
               <p className="w-full text-designColor flex justify-center items-center text-xs md:text-base">
-                Browser
+                Maven
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
@@ -289,8 +301,8 @@ export default function Project1() {
 
         {/* IMPLIMENTATION */}
 
-        <div className="flex flex-col lgl:flex-row gap-10 justify-center items-center">
-          <div className="w-full lgl:w-2/3">
+        <div className="flex flex-col gap-10 justify-center items-center">
+          <div className="w-full">
             <div className="w-full flex flex-col gap-4">
               <h3
                 className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
@@ -308,7 +320,7 @@ export default function Project1() {
                   </div>
                   <div>
                     <span className="text-white">Project Setup:</span>{" "}
-                    Set up the test automation project structure and environment.
+                    Initialize a Maven project and configure the project structure for automation testing.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -316,7 +328,15 @@ export default function Project1() {
                     <MdDoubleArrow />
                   </div>
                   <div>
-                    <span className="text-white">Test Framework Configuration:</span> Configure the chosen test framework (JUnit, TestNG) and integrate with Selenium for browser automation.
+                    <span className="text-white">Selenium Configuration:</span> Set up Selenium WebDriver and configure browser drivers for Chrome, Firefox, and other target browsers.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">TestNG Configuration:</span>{" "} Configure TestNG for test case management, including setting up test suites and test reports.
                   </div>
                 </div>
                 <div className="flex flex-row gap-4">
@@ -359,12 +379,12 @@ export default function Project1() {
             </div>
           </div>
           <div
-            className="w-full lgl:w-1/3 flex justify-center items-center "
+            className="w-full flex justify-center items-center "
             data-aos="zoom-in"
           >
             <img
-              className="w-[250px] lgl:w-[400px] h-auto"
-              src={implimentImg}
+              className="w-[80%] h-auto shadow-md shadow-cardColor"
+              src={iListenerImg}
               alt="impliment_img"
             />
           </div>
@@ -374,16 +394,16 @@ export default function Project1() {
 
         <div className="flex flex-col-reverse lgl:flex-row gap-10 justify-center items-center">
           <div
-            className="w-full lgl:w-1/3 flex justify-center items-center "
+            className="w-full lgl:w-1/2 flex justify-center items-center "
             data-aos="zoom-in"
           >
             <img
-              className="w-[220px] lgl:w-[250px] h-auto"
-              src={expectedImg}
+              className="w-[80%] lgl:w-[450px] h-auto shadow-md shadow-cardColor"
+              src={readExelImg}
               alt="objectives"
             />
           </div>
-          <div className="w-full lgl:w-2/3">
+          <div className="w-full lgl:w-1/2">
             <div className="w-full flex flex-col gap-4">
               <h3
                 className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
@@ -440,12 +460,24 @@ export default function Project1() {
           </div>
         </div>
 
+        <div
+            className="w-full flex justify-center items-center "
+            data-aos="zoom-in"
+          >
+            <img
+              className="w-[80%] h-auto shadow-md shadow-cardColor"
+              src={extentReport}
+              alt="testNG_XML_file"
+            />
+        </div>
+
+
         <div className="w-full flex flex-col gap-4">
           <p
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            By implementing automated testing for the Bank Interest Calculator, the project aims to enhance the reliability and accuracy of the application, ensuring it meets user expectations and performs consistently across various conditions.
+            By implementing the E-learning App Automation project with Selenium, Java, and TestNG, we aim to achieve a robust and efficient testing process that ensures the app's high quality and reliability, providing a seamless user experience.
           </p>
         </div>
         <div className="text-designColor flex justify-center items-center">

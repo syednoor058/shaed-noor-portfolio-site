@@ -37,7 +37,7 @@ function App() {
             <Route exact path="/hungry-shaed-web-application-details" element={<Project1 />} />
             <Route exact path="/movie-suggestion-system-details" element={<Project2 />} />
             <Route exact path="/car-price-prediction-system-details" element={<Project3 />} />
-            <Route exact path="/bank-interest-calculator-details" element={<Project4 />} />
+            <Route exact path="/e-learning-app-automation-test-details" element={<Project4 />} />
             <Route exact path="/personal-portfolio-site-details" element={<Project5 />} />
             <Route exact path="/wordpress-plugins-automation-details" element={<Project6 />} />
             <Route exact path="/house-price-prediction-details" element={<Project7 />} />
