@@ -5,10 +5,10 @@ import { MdDoubleArrow } from "react-icons/md";
 import { SiApachejmeter, SiApachemaven, SiJunit5, SiSelenium } from "react-icons/si";
 import { Link } from "react-router-dom";
 import objImg from "../assets/images/objectives.png";
-import eLearningApp from "../assets/project_five/elearningAppUI.png";
-import extentReport from "../assets/project_five/extentReport.PNG";
-import iListenerImg from "../assets/project_five/iListenerClass.PNG";
-import readExelImg from "../assets/project_five/readXLS.PNG";
+import eLearningApp from "../assets/images/project_five/elearningAppUI.png";
+import extentReport from "../assets/images/project_five/extentReport.PNG";
+import iListenerImg from "../assets/images/project_five/iListenerClass.PNG";
+import readExelImg from "../assets/images/project_five/readXLS.PNG";
 
 export default function Project1() {
 
@@ -27,32 +27,38 @@ export default function Project1() {
           <HiArrowUp />
         </div>
       </div>
-      <div className="w-full h-auto py-20 px-10 lgl:px-20 flex flex-col gap-10 lg:gap-15">
-        <div className="flex pb-5">
-          <Link to="/">
-            {" "}
-            <p className="flex justify-center items-center">
-              <span className="text-designColor pr-3">
-                <HiArrowLeft />
-              </span>
-              Home
+      <div className="w-full h-[300px] bg-projectFiveMobCover md:bg-projectFiveCover bg-no-repeat bg-cover bg-center">
+        <div className="w-full h-full bg-gradient-to-t from-bodyColor to-transparent">
+        <div className="px-10 pt-10 lgl:px-20 lgl:pt-20 h-full flex flex-col gap-10 lg:gap-15">
+          <div className="flex">
+            <Link to="/">
+              {" "}
+              <p className="flex justify-center items-center">
+                <span className="text-lightText pr-2">
+                  <HiArrowLeft />
+                </span>
+                Home
+              </p>
+            </Link>
+          </div>
+          <div className="w-full h-full flex flex-col gap-2 justify-end items-center">
+            <p
+              className="text-md text-bold uppercase font-light text-designColor tracking-wide"
+              data-aos="zoom-in"
+            >
+              Automation Testing Project
             </p>
-          </Link>
+            <h1
+              className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
+              data-aos="zoom-in"
+            >
+              E-Learning Application Automation Testing Project
+            </h1>
+          </div>
         </div>
-        <div className="w-full flex flex-col gap-4 justify-center items-center">
-          <p
-            className="text-md text-bold uppercase font-light text-designColor tracking-wide"
-            data-aos="zoom-in"
-          >
-            Automation Testing Project
-          </p>
-          <h1
-            className="text-2xl md:text-3xl text-gray-300 font-bold capitalize text-center"
-            data-aos="zoom-in"
-          >
-            E-Learning Application Automation Testing Project
-          </h1>
         </div>
+      </div>
+      <div className="w-full h-auto py-20 px-5 lgl:px-20 flex flex-col gap-20 lg:gap-15">        
         <div className="w-full flex flex-col gap-4">
           <h3
             className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
@@ -64,7 +70,7 @@ export default function Project1() {
             className="text-md text-bold font-light text-lightText tracking-wide"
             data-aos="zoom-in"
           >
-            The E-learning App Automation project focuses on automating the testing process for an e-learning application similar to Udemy. This project aims to ensure the app's reliability, functionality, and performance by using Selenium WebDriver for browser automation, Java for scripting, and TestNG for test management. The automated tests cover critical features such as user authentication, course enrollment, payment processing, and user dashboard functionality.
+            This project explores the implementation of Selenium automation testing for the "LearnIt360" online course portal, utilizing TestNG, JUnit, Maven, and Java. The automation framework covers critical functionalities, including user login, signup, dashboard navigation, course enrollment, course checkout, payment gateway integration, and logout processes. The primary objective is to ensure a seamless user experience by validating the reliability and performance of these essential features. By leveraging Selenium's capabilities for browser automation and TestNG's robust testing framework, we systematically develop and execute test scripts that mimic real-world user interactions. This approach not only enhances the efficiency of regression testing but also aids in the early detection of defects, ultimately contributing to the platform's overall quality and user satisfaction. The paper details the architecture of the automation framework, the design of test cases, and the integration with continuous integration/continuous deployment (CI/CD) pipelines, demonstrating the effectiveness of automated testing in maintaining a high standard of software quality for dynamic web applications.
           </p>
         </div>
 
@@ -83,6 +89,7 @@ export default function Project1() {
                 className="text-md text-bold font-light text-lightText tracking-wide"
                 data-aos="zoom-in"
               >
+                <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-4 ">
                   <div className="text-designColor pt-1.5">
                     <MdDoubleArrow />
@@ -136,6 +143,7 @@ export default function Project1() {
                     Ensure the application meets high standards of quality and provides a seamless user experience.
                   </div>
                 </div>
+                </div>
               </p>
             </div>
           </div>
@@ -148,6 +156,80 @@ export default function Project1() {
               src={objImg}
               alt="objectives"
             />
+          </div>
+        </div>
+
+        {/* TEST CASES */}
+        <div className="flex flex-col-reverse gap-10 justify-center items-center">
+        <div className="w-full">
+            <div className="w-full flex flex-col gap-4">
+              <h3
+                className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
+                data-aos="zoom-in"
+              >
+                Test Scenarios
+              </h3>
+              <p
+                className="text-md text-bold font-light text-lightText tracking-wide"
+                data-aos="zoom-in"
+              >
+                <div className="flex flex-col gap-3">
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">User Signup and Login:</span>{" "}
+                    For user signup, scenarios include verifying successful registration with valid credentials and validating error messages for invalid or incomplete information, as well as checking the email verification process. For user login, tests will confirm successful login with valid credentials, validate error messages for incorrect usernames or passwords, and test the password recovery process.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Dashboard Navigation:</span>{" "}
+                    Dashboard navigation scenarios will ensure the correct loading of the user dashboard after login, verify navigation to different sections like profile, courses, and settings, and check for the correct display of user-specific information and notifications. Course enrollment tests will verify successful enrollment in a course, proper handling of prerequisites and availability, and accurate display of course details and enrollment confirmation.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Course Enrollment and Checkout:</span>{" "}For course checkout, scenarios include validating the course selection process and addition to the shopping cart, confirming the accuracy of course prices, discounts, and total amounts, and verifying the functionality of promotional codes and vouchers. Payment gateway integration will ensure successful processing of payments using various methods, validate error handling for failed transactions, and check the security and encryption of payment data.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">User Logout:</span>{" "}
+                    Logout process scenarios will verify successful logout from the portal, ensure redirection to the login page post-logout, and confirm that no user-specific data is accessible after logout. User profile management tests will verify updating profile information, check for accurate reflection of changes across the portal, and validate error messages for invalid input data.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Payment Gateway Integration:</span>{" "}
+                    The payment scenario for the LearnIt360 online course portal involves several key steps to ensure the payment process is smooth, secure, and user-friendly. Initially, the scenario verifies that users can successfully add courses to their shopping cart and proceed to checkout. It checks that the course prices, discounts, and total amounts are accurately displayed, and that any promotional codes or vouchers applied are correctly processed.
+                  </div>
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="text-designColor pt-1.5">
+                    <MdDoubleArrow />
+                  </div>
+                  <div>
+                    <span className="text-white">Search Functionality:</span>{" "}
+                    Search functionality scenarios will verify the accuracy and relevance of search results for courses, test search filters and sorting options, and ensure correct handling of no results found scenarios. Finally, accessibility and usability tests will check for compatibility with different browsers and devices, validate accessibility features, and ensure a user-friendly interface and intuitive navigation.
+                  </div>
+                </div>
+                </div>
+              </p>
+            </div>
           </div>
         </div>
 

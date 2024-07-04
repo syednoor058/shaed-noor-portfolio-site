@@ -31,6 +31,10 @@ module.exports = {
         shadowThree: "10px 15px 15px -5px rgb(0 0 0 / 0.1), 5px 8px 5px -6px rgb(0 0 0 / 0.1)",
         shadowFour: "5px 5px 8px -1px rgba(1,1,1,0.7)",
       },
+      backgroundImage: {
+        'projectFiveCover': "url('/src/assets/images/project_five/projectCover.png')",
+        'projectFiveMobCover': "url('/src/assets/images/project_five/projectMobCover.png')",
+      },
     },
   },
   plugins: [],
