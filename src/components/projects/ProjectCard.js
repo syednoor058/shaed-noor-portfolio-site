@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard(props) {
@@ -41,7 +42,7 @@ export default function ProjectCard(props) {
           </div>
         </div>
         <div className="w-full flex flex-col justify-end align-middle">
-          <Link to={props.forwordUrl} className="border border-designColor hover:bg-designColor hover:border-none duration-500 rounded-md px-2 py-2 text-center">Project Details</Link>
+          <Link to={props.forwordUrl} className="border border-designColor hover:bg-designColor hover:border-none duration-500 rounded px-2 py-1"><p className="flex flex-row gap-3 justify-center">Project Details <span className="pt-1"><FaArrowRightLong /></span></p></Link>
         </div>
       </div>
     </>
