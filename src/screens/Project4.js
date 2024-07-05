@@ -549,7 +549,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -562,7 +561,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -575,7 +573,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -588,7 +585,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -601,7 +597,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -614,7 +609,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
@@ -627,7 +621,6 @@ export default function Project1() {
               <div
                 className="flex flex-col gap-2 justify-center items-center"
                 data-aos="zoom-in"
-                data-aos-delay="600"
                 data-aos-offset="0"
               >
                 <div className="projectIcon">
