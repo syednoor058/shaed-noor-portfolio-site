@@ -10,15 +10,21 @@ import {
 } from "react-icons/si";
 import { Link } from "react-router-dom";
 import projectCardCover from "../assets/images/elearning_app_testing.png";
-import extentReport from "../assets/images/project_five/extentReport.PNG";
-import iListenerImg1 from "../assets/images/project_five/iListenerClass1.PNG";
-import iListenerImg2 from "../assets/images/project_five/iListenerClass2.PNG";
-import readExelImg1 from "../assets/images/project_five/readXLS01.PNG";
-import readExelImg2 from "../assets/images/project_five/readXLS02.PNG";
-import web1 from "../assets/images/project_five/web1.PNG";
-import web2 from "../assets/images/project_five/web2.PNG";
-import web3 from "../assets/images/project_five/web3.PNG";
-import web4 from "../assets/images/project_five/web4.PNG";
+import browserDriver from "../assets/images/project_five/browser001.PNG";
+import extentReport002 from "../assets/images/project_five/extentReport.PNG";
+import extentReport001 from "../assets/images/project_five/extentReport001.png";
+import iListener from "../assets/images/project_five/ilistener001.PNG";
+import pomXml from "../assets/images/project_five/pom001.PNG";
+import readXml from "../assets/images/project_five/read001.PNG";
+import testCases from "../assets/images/project_five/test001.PNG";
+import testNGImg from "../assets/images/project_five/testng001.PNG";
+import testngConsole from "../assets/images/project_five/testngConsoleReport.PNG";
+import website001 from "../assets/images/project_five/website001.png";
+import website002 from "../assets/images/project_five/website002.png";
+import website003 from "../assets/images/project_five/website003.png";
+import website004 from "../assets/images/project_five/website004.png";
+import website005 from "../assets/images/project_five/website005.png";
+import website006 from "../assets/images/project_five/website006.png";
 
 export default function Project1() {
   useEffect(() => {
@@ -117,7 +123,7 @@ export default function Project1() {
           {/* OBJECTIVES */}
 
           <div className="flex flex-col lgl:flex-row gap-10 justify-center items-center">
-            <div className="w-full lgl:w-1/2">
+            <div className="w-full lgl:w-2/3">
               <div className="w-full flex flex-col gap-4">
                 <h3
                   className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
@@ -139,7 +145,7 @@ export default function Project1() {
                         correctly through automated testing.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -163,7 +169,7 @@ export default function Project1() {
                         web browsers.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -192,11 +198,11 @@ export default function Project1() {
               </div>
             </div>
             <div
-              className="w-full lgl:w-1/2 flex justify-center items-center"
+              className="w-full lgl:w-1/3 shadow-md shadow-cardColor"
               data-aos="fade-left"
             >
               <img
-                className="object-cover w-[600px] h-auto shadow-md shadow-cardColor"
+                className="object-cover rounded"
                 src={projectCardCover}
                 alt="objectives"
               />
@@ -233,7 +239,7 @@ export default function Project1() {
                         process.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -271,7 +277,7 @@ export default function Project1() {
                         encryption of payment data.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -305,7 +311,7 @@ export default function Project1() {
                         processed.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -356,27 +362,8 @@ export default function Project1() {
                         enhancing the robustness of the tests.
                       </div>
                     </div>
-                    <div
-                      className="w-full flex justify-center items-center shadow-md shadow-cardColor"
-                      data-aos="zoom-in"
-                    >
-                      <img
-                        className="w-full h-auto"
-                        src={readExelImg1}
-                        alt="data_driven_test_code"
-                      />
-                    </div>
-                    <div
-                      className="w-full flex justify-center items-center shadow-md shadow-cardColor"
-                      data-aos="zoom-in"
-                    >
-                      <img
-                        className="w-full h-auto"
-                        src={readExelImg2}
-                        alt="data_driven_test_code"
-                      />
-                    </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -406,7 +393,7 @@ export default function Project1() {
                         user environments.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -422,26 +409,7 @@ export default function Project1() {
                         the ability to monitor and analyze test results.
                       </div>
                     </div>
-                    <div
-                      className="w-full flex justify-center items-center shadow-md shadow-cardColor"
-                      data-aos="zoom-in"
-                    >
-                      <img
-                        className="w-full h-auto"
-                        src={iListenerImg1}
-                        alt="iListener_class_test_code"
-                      />
-                    </div>
-                    <div
-                      className="w-full flex justify-center items-center shadow-md shadow-cardColor"
-                      data-aos="zoom-in"
-                    >
-                      <img
-                        className="w-full h-auto"
-                        src={iListenerImg2}
-                        alt="iListener_class_test_code"
-                      />
-                    </div>
+
                     <div className="flex flex-row gap-4" data-aos="fade-right">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
@@ -459,7 +427,7 @@ export default function Project1() {
                         and facilitating rapid development cycles.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -489,7 +457,7 @@ export default function Project1() {
                         the test suite as the application evolves.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -505,18 +473,65 @@ export default function Project1() {
                         application.
                       </div>
                     </div>
-                    <div
-                      className="w-full flex justify-center items-center shadow-md shadow-cardColor"
-                      data-aos="zoom-in"
-                    >
-                      <img
-                        className="w-full h-auto"
-                        src={extentReport}
-                        alt="extent_test_report"
-                      />
-                    </div>
                   </div>
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <div className="overflow-hidden">
+              <div className="flex flex-col lg:flex-row gap-4">
+                <div className="flex flex-row gap-4">
+                  <div className="h-full w-auto " data-aos="fade-right">
+                    <img
+                      className="object-cover rounded shadow-md shadow-cardColor"
+                      src={readXml}
+                      alt="objectives"
+                    />
+                  </div>
+                  <div className="h-full w-auto " data-aos="fade-up">
+                    <img
+                      className="object-cover rounded shadow-md shadow-cardColor"
+                      src={iListener}
+                      alt="objectives"
+                    />
+                  </div>
+                </div>
+                <div className="h-full w-auto " data-aos="fade-left">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={browserDriver}
+                    alt="objectives"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-row gap-4 overflow-hidden">
+              <div className="flex flex-col-reverse lg:flex-row gap-4">
+                <div className="h-full w-auto " data-aos="fade-right">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={testNGImg}
+                    alt="objectives"
+                  />
+                </div>
+                <div className="flex flex-row gap-4">
+                  <div className="h-full w-auto " data-aos="fade-up">
+                    <img
+                      className="object-cover rounded shadow-md shadow-cardColor"
+                      src={testCases}
+                      alt="objectives"
+                    />
+                  </div>
+                  <div className="h-full w-auto " data-aos="fade-left">
+                    <img
+                      className="object-cover rounded shadow-md shadow-cardColor"
+                      src={pomXml}
+                      alt="objectives"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -648,7 +663,7 @@ export default function Project1() {
                         structure for automation testing.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -672,7 +687,7 @@ export default function Project1() {
                         setting up test suites and test reports.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -696,7 +711,7 @@ export default function Project1() {
                         Jenkins, GitHub Actions, or GitLab CI.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -730,42 +745,55 @@ export default function Project1() {
             <div className="w-full flex flex-col gap-4">
               <h3
                 className="text-xl md:text-2xl text-gray-300 font-bold capitalize"
-                data-aos="fade-right"
+                data-aos="fade-left"
               >
                 Website Interface
               </h3>
-              <div
-                className="w-full flex flex-col gap-5 justify-center items-center "
-                
-              >
-                <div data-aos="zoom-in">
+              <div className="flex flex-row gap-4">
+                <div className="h-full w-auto" data-aos="fade-right">
                   <img
-                    className="w-full h-auto shadow-md shadow-cardColor"
-                    src={web1}
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website001}
                     alt="website_home_portal"
                   />
                 </div>
-                <div className="flex flex-row gap-5">
-                  <div className="w-1/2" data-aos="zoom-in">
-                    <img
-                      className="shadow-md shadow-cardColor"
-                      src={web2}
-                      alt="website_login_portal"
-                    />
-                  </div>
-                  <div className="w-1/2" data-aos="zoom-in">
-                    <img
-                      className="w-[555px] h-auto shadow-md shadow-cardColor"
-                      src={web3}
-                      alt="website_payment_portal"
-                    />
-                  </div>
-                </div>
-                <div data-aos="zoom-in">
+                <div className="h-full w-auto" data-aos="fade-left">
                   <img
-                    className="w-full h-auto shadow-md shadow-cardColor"
-                    src={web4}
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website002}
+                    alt="website_login"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-row gap-4">
+                <div className="h-full w-auto" data-aos="fade-right">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website004}
+                    alt="website_payment_portal"
+                  />
+                </div>
+                <div className="h-full w-auto" data-aos="fade-left">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website003}
                     alt="website_dashboard_portal"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-row gap-4">
+                <div className="h-full w-auto" data-aos="fade-right">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website005}
+                    alt="website_course_portal"
+                  />
+                </div>
+                <div className="h-full w-auto" data-aos="fade-left">
+                  <img
+                    className="object-cover rounded shadow-md shadow-cardColor"
+                    src={website006}
+                    alt="website_course_portal"
                   />
                 </div>
               </div>
@@ -783,10 +811,7 @@ export default function Project1() {
                 >
                   Expected Outcomes
                 </h3>
-                <p
-                  className="text-md text-bold font-light text-lightText tracking-wide"
-                  
-                >
+                <p className="text-md text-bold font-light text-lightText tracking-wide">
                   <div className="flex flex-col gap-3">
                     <div className="flex flex-row gap-4" data-aos="fade-right">
                       <div className="text-designColor pt-1.5">
@@ -800,7 +825,7 @@ export default function Project1() {
                         results for all tested scenarios.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -824,7 +849,7 @@ export default function Project1() {
                         different web browsers.
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4" data-aos="fade-right">
+                    <div className="flex flex-row gap-4" data-aos="fade-left">
                       <div className="text-designColor pt-1.5">
                         <MdDoubleArrow />
                       </div>
@@ -851,6 +876,34 @@ export default function Project1() {
                     </div>
                   </div>
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-row gap-4">
+              <div className="h-full w-auto " data-aos="fade-right">
+                <img
+                  className="object-cover rounded shadow-md shadow-cardColor"
+                  src={testngConsole}
+                  alt="testNG_console_report"
+                />
+              </div>
+              <div className="h-full w-auto " data-aos="fade-left">
+                <img
+                  className="object-cover rounded shadow-md shadow-cardColor"
+                  src={extentReport001}
+                  alt="extent_report"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="h-full w-auto " data-aos="zoom-in">
+                <img
+                  className="object-cover rounded shadow-md shadow-cardColor"
+                  src={extentReport002}
+                  alt="extent_report"
+                />
               </div>
             </div>
           </div>
