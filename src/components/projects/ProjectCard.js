@@ -8,8 +8,7 @@ export default function ProjectCard(props) {
     <>
       <div
         className="w-full px-5 py-5 rounded-md flex flex-col gap-5 justify-between items-center shadow shadow-[#696969] bg-cardColor hover:bg-cardColorHover hover:bg-gradient-to-b transition-colors duration-500 group"
-        data-aos="zoom-in"
-        data-aos-offset="100"
+        data-aos={props.aos}
       >
         <div className="w-full">
           <div className="w-full h-auto overflow-hidden rounded-lg">
@@ -42,7 +41,17 @@ export default function ProjectCard(props) {
           </div>
         </div>
         <div className="w-full flex flex-col justify-end align-middle">
-          <Link to={props.forwordUrl} className="border border-designColor hover:bg-designColor hover:border-none duration-500 rounded px-2 py-1"><p className="flex flex-row gap-3 justify-center">Project Details <span className="pt-1"><FaArrowRightLong /></span></p></Link>
+          <Link
+            to={props.forwordUrl}
+            className="border border-designColor hover:bg-designColor hover:border-none duration-500 rounded px-2 py-1"
+          >
+            <p className="flex flex-row gap-3 justify-center">
+              Project Details{" "}
+              <span className="pt-1">
+                <FaArrowRightLong />
+              </span>
+            </p>
+          </Link>
         </div>
       </div>
     </>

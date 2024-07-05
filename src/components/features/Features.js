@@ -9,10 +9,16 @@ export default function Features() {
     <section id="features" className="w-full py-10 xl:py-0">
       <div className="flex justify-center items-center text-center">
         <div className="flex flex-col gap-4 font-titleFont mb-14">
-          <h3 className="text-sm uppercase font-light text-designColor tracking-wide" data-aos="zoom-in">
+          <h3
+            className="text-sm uppercase font-light text-designColor tracking-wide"
+            data-aos="fade-right"
+          >
             Services
           </h3>
-          <h1 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize" data-aos="zoom-in">
+          <h1
+            className="text-2xl md:text-3xl text-gray-300 font-bold capitalize"
+            data-aos="fade-left"
+          >
             What I Do
           </h1>
         </div>
@@ -22,37 +28,37 @@ export default function Features() {
           title="App Development"
           desc="Proficient in developing robust and scalable software solutions tailored to meet diverse business needs, leveraging expertise in various programming languagess."
           icon={<FaCode />}
-          
+          aos="fade-right"
         />
         <Cards
           title="Software Testing"
           desc="Skilled in ensuring the quality and reliability of software through meticulous testing methodologies, including automated testing, to identify and resolve defects efficiently."
           icon={<FaBugSlash />}
-          
+          aos="fade-up"
         />
         <Cards
           title="UI/UX Design"
           desc="Experienced in crafting intuitive and visually appealing user interfaces, with a focus on enhancing user experience through thoughtful design principles and usability."
           icon={<BsColumnsGap />}
-          
+          aos="fade-left"
         />
         <Cards
           title="Machine Learning"
           desc="Advanced knowledge in applying machine learning algorithms to analyze data, derive insights, and develop predictive models that drive innovation and optimization."
           icon={<FaRobot />}
-          
+          aos="fade-right"
         />
         <Cards
           title="Digital Marketing"
           desc="Expertise in designing & executing comprehensive digital marketing strategies, utilizing various channels such as social media, email, & content marketing."
           icon={<BsFillBarChartLineFill />}
-          
+          aos="fade-up"
         />
         <Cards
           title="SEO"
           desc="Proficient in optimizing website content and structure to improve visibility and ranking on search engine results pages, utilizing strategic keyword research."
           icon={<FaGlobeAmericas />}
-          
+          aos="fade-left"
         />
       </div>
     </section>
