@@ -198,11 +198,11 @@ export default function Project1() {
               </div>
             </div>
             <div
-              className="w-full lgl:w-1/3 shadow-md shadow-cardColor"
+              className="w-full lgl:w-1/3 flex justify-center items-center"
               data-aos="fade-left"
             >
               <img
-                className="object-cover rounded"
+                className="object-cover shadow-md shadow-cardColor rounded"
                 src={projectCardCover}
                 alt="objectives"
               />
