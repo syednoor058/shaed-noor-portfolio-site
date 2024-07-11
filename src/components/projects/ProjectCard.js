@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { IoChevronForwardCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard(props) {
@@ -42,11 +43,19 @@ export default function ProjectCard(props) {
         <div className="w-full flex flex-col justify-end align-middle">
           <Link
             to={props.forwordUrl}
-            className="bg-gray-400 text-designColor hover:text-white hover:bg-designColor duration-500 rounded px-2 py-1"
+            className="bg-gray-400 text-cardColor hover:text-white hover:bg-designColor duration-500 rounded px-2 py-2"
           >
-            <p className="flex flex-row gap-3 justify-center">
-              Project Details
-            </p>
+            <div className="w-full flex flex-row">
+              <div className="w-[90%]">
+                <p className="flex flex-row justify-center">
+                  Project Details
+                </p>
+              </div>
+              <div className="w-[10%]">
+                <IoChevronForwardCircle />
+              </div>
+            </div>
+            
           </Link>
         </div>
       </div>
