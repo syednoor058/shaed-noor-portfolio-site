@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { IoChevronForwardCircle } from "react-icons/io5";
+import { IoCaretForwardOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard(props) {
@@ -40,23 +40,32 @@ export default function ProjectCard(props) {
             </p>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-end align-middle">
-          <Link
-            to={props.forwordUrl}
-            className="bg-gray-400 text-cardColor hover:text-white hover:bg-designColor duration-500 rounded px-2 py-2"
-          >
-            <div className="w-full flex flex-row">
-              <div className="w-[90%]">
-                <p className="flex flex-row justify-center">
+
+        <div className="w-full flex flex-row gap-3">
+          <div className="w-[50%] border border-gray-400 text-gray-400 hover:bg-designColor hover:border-designColor hover:text-white duration-500 py-2 px-2 rounded">
+            <Link to={props.githubLink}>
+              <div className="flex flex-row">
+                <div className="w-[85%] flex items-center justify-center">
+                  View Codes
+                </div>
+                <div className="w-[15%] flex items-center justify-center">
+                  <FaGithub />
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="w-[50%]  bg-gray-400 text-cardColor hover:bg-designColor hover:text-white duration-500 py-2 px-2 rounded">
+            <Link to={props.forwordUrl}>
+              <div className="flex flex-row">
+                <div className="w-[85%] flex items-center justify-center">
                   Project Details
-                </p>
+                </div>
+                <div className="w-[15%] text-xl flex items-center justify-center">
+                  <IoCaretForwardOutline />
+                </div>
               </div>
-              <div className="w-[10%]">
-                <IoChevronForwardCircle />
-              </div>
-            </div>
-            
-          </Link>
+            </Link>
+          </div>
         </div>
       </div>
     </>
