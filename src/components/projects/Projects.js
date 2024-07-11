@@ -62,7 +62,7 @@ export default function Projects() {
         />
         <ProjectCard
           forwordUrl="/personal-portfolio-site-details"
-          title="My Portfolio Site (React JS)"
+          title="My Personal Portfolio Website (React JS)"
           desc="A portfolio website designed to showcase my skills and expertise along with my educational and experience background.."
           coverSrc={projectSixCover}
           githubLink="https://github.com/syednoor058/shaed-noor-portfolio-site.git"
