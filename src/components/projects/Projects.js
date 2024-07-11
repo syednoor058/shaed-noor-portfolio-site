@@ -31,7 +31,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/hungry-shaed-web-application-details"
           title="Hungry Shaed Web Application (MERN Stack)"
-          desc="HungryShaed is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to streamline the food delivery process. With an intuitive user interface, customers can browse a wide range of cuisines, place orders, and track their delivery in real-time."
+          desc="A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to streamline the food delivery process."
           coverSrc={projectOneImg}
           githubLink="https://github.com/syednoor058/hungryShaed-MERN-stack.git"
           aos="fade-right"
@@ -39,7 +39,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/movie-suggestion-system-details"
           title="Movie Suggestion System (Machine Learning & Data Science)"
-          desc="This is a system where user can type a movie title on the search box and can get 5 most similar movie suggestions using Machine Learning model. The system was built with Streamlit. Till now the system contains almost 5000 movies data."
+          desc="A trained machine learning model to suggest five similar movies compering to the input of a movie name that is provided by the users."
           coverSrc={projectTwoCover}
           githubLink="https://github.com/syednoor058/movie-suggestion-system.git"
           aos="fade-up"
@@ -47,7 +47,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/car-price-prediction-system-details"
           title="Pre-owned Car Price Prediction (Machine Learning)"
-          desc="The forecast of current pricing for used automobiles is critical in the automotive business, allowing buyers & sellers to make educated decisions. This work includes a detailed investigation into the development of dependable machine-learning model."
+          desc="Forcasting current market price for pre-owned automobiles allowing buyers & sellers to make educated decisions."
           coverSrc={projectThreeCover}
           githubLink="https://github.com/syednoor058/preowned_car_price_prediction.git"
           aos="fade-left"
@@ -55,7 +55,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/e-learning-app-automation-test-details"
           title="E-Learning Application Automation Test (Selenium & TestNG)"
-          desc="This repository contains Selenium-based automated tests for the LearnIt360 online course portal using Java. It includes tests for user authentication, course enrollment, content access, course checkout, payment gateway, and profile management. Technologies used: Selenium WebDriver, TestNG, Maven, and ExtentReports."
+          desc="Selenium-based automation test project for the 'LearnIt360', an online course portal using Java, TestNG, JUnit, and includes tests for all the main functionalities."
           coverSrc={projectFiveCover}
           githubLink="https://github.com/syednoor058/LearnIT360-Selenium-Automation-Testing-Project.git"
           aos="fade-right"
@@ -63,7 +63,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/personal-portfolio-site-details"
           title="My Portfolio Site (React JS)"
-          desc="This portfolio website is fully designed and developed by me. All rights reserved on my name. I used React Js with Tailwind CSS, Framer-motion, React Slick, and React-scroll. A visually stunning portfolio highlighting my skills and achievements."
+          desc="A portfolio website designed to showcase my skills and expertise along with my educational and experience background.."
           coverSrc={projectSixCover}
           githubLink="https://github.com/syednoor058/shaed-noor-portfolio-site.git"
           aos="fade-up"
@@ -71,7 +71,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/wordpress-plugins-automation-details"
           title="Wordpress Plugins Automation Test (Playwright & JavaScript)"
-          desc="A comprehensive project, designed to enhance the testing process for WordPress plugins, 'WP Dark Mode', developed by WPPOOL. Leveraging the power of Playwright, this repository offers developers a robust framework to automate testing procedures and functionality of their plugins."
+          desc="A comprehensive project to enhance the testing process for WordPress plugins, 'WP Dark Mode', developed by WPPOOL. "
           coverSrc={projectSevenCover}
           githubLink="https://github.com/syednoor058/WordPress-plugin-automation-test-by-Playwright.git"
           aos="fade-left"
@@ -79,7 +79,7 @@ export default function Projects() {
         <ProjectCard
           forwordUrl="/house-price-prediction-details"
           title="Real Estate House Price Prediction (Machine Learning & React JS)"
-          desc="A machine learning model to predict house prices in Bengaluru. Features include data preprocessing, exploratory data analysis, model training, and prediction. Ideal for real estate market analysis and investment planning. The client side application was built with ReactJs while the server side application was developed using FastAPI."
+          desc="A machine learning model to predict house prices in Bengaluru to predict the accurate prices according to the important features of an appartment."
           coverSrc={projectEightCover}
           githubLink="https://github.com/syednoor058/Machine_Learning_Real_Estate_Price_Prediction.git"
           aos="fade-right"
