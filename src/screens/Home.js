@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <div className="overflow-x-hidden">
         <div>
-          <div className="w-full px-5 md:px-10">
+          <div className="w-full px-5 md:px-20">
             <Banner />
           </div>
           <div className="bg-bodyColor">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="w-full px-5 md:px-10 bg-designColor">
+          <div className="w-full px-5 md:px-20 bg-designColor">
             <About />
           </div>
           <div className="bg-designColor">
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="w-full px-5 md:px-10">
+          <div className="w-full px-5 md:px-20">
             <Features />
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
               ></path>
             </svg>
           </div>
-          <div className="w-full px-5 md:px-10 bg-lightText">
+          <div className="w-full px-5 md:px-20 bg-lightText">
             <Projects />
           </div>
         </div>
@@ -75,11 +75,11 @@ export default function Home() {
             ></path>
           </svg>
         </div>
-        <div className="w-full px-5 md:px-10">
+        <div className="w-full px-5 md:px-20">
           <Resume />
         </div>
 
-        <div className="w-full px-5 md:px-10">
+        <div className="w-full px-5 md:px-20">
           <Testimonial />
         </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
             ></path>
           </svg>
         </div>
-        <div className="w-full px-5 md:px-10 bg-lightText">
+        <div className="w-full px-5 md:px-20 bg-lightText">
           <Contact />
         </div>
 

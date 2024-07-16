@@ -27,7 +27,7 @@ export default function Projects() {
           </h1>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 xl:gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 xl:gap-5">
         <ProjectCard
           forwordUrl="/hungry-shaed-web-application-details"
           title="Hungry Shaed Web Application (MERN Stack)"
